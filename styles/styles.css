@@ -1,0 +1,25 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+.logo {
+	position: absolute;
+	left: 12px;
+	top: 2rem;
+}
+.nav-contents {
+	height: 15vh;
+}
+.nav-item {
+	margin: 1rem;
+	font-size: 20px;
+}
+
+@media (max-width: 425px) {
+	.nav-item {
+		margin: 0rem;
+		font-size: 20px;
+	}
+}
