@@ -73,14 +73,14 @@
               <small id="emailHelp" class="form-text text-muted">We'll never share your password with anyone
                 else.</small>
             </div>
-
+            <p class="error"></p>
             <button type="submit" class="btn modalbtn btn-primary">Log In</button>
           </form>
-          <p class="error red-text text-lighten-1 center"></p>
+          
         </div>
         <div class="modal-footer">
           <p class="signuptext">Dont Have An Account</p>
-          <button type="button" class="btn signupmodalbtn btn-primary" data-toggle="modal"
+          <button type="button" class="btn signupmodalbtn btn-primary" data-dismiss="modal" data-toggle="modal"
             data-target="#signupModal">Sign Up</button>
         </div>
       </div>
@@ -121,7 +121,7 @@
                 else.</small>
             </div>
 
-            <button type="submit" class=" modal-close btn modalbtn btn-primary">Sign up</button>
+            <button type="submit"  class=" modal-close btn modalbtn btn-primary" >Sign up</button>
           </form>
         </div>
 
@@ -146,17 +146,19 @@
 
   <script>
     // Your web app's Firebase configuration
+   
+
     var firebaseConfig = {
-      apiKey: "AIzaSyDO9db9-1KQ6Nk66F4f1eVZsm2LoOYCLE8",
-      authDomain: "rosetta-a890c.firebaseapp.com",
-      databaseURL: "https://rosetta-a890c.firebaseio.com",
-      projectId: "rosetta-a890c",
-      // storageBucket: "",
-      // messagingSenderId: "965331850656",
-      appId: "1:965331850656:web:58747987bfdcd1db"
-    };
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
+    apiKey: "AIzaSyC2cCFtgkMUXs8lDj7W9U7Rw10Cj8jdzHA",
+    authDomain: "startsmart-b2a84.firebaseapp.com",
+    databaseURL: "https://startsmart-b2a84.firebaseio.com",
+    projectId: "startsmart-b2a84",
+    // storageBucket: "",
+    // messagingSenderId: "999659756521",
+    appId: "1:999659756521:web:a0a2426664845930"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
 
     // make auth and firestore refrences
     const auth = firebase.auth();

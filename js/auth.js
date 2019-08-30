@@ -40,7 +40,7 @@ loginForm.addEventListener('submit', (e) => {
     console.log(cred.user);
     // signinForm.reset();
     if (cred.user) {
-        window.location='schedules.html';
+        window.location='dashboard.html';
         loginForm.querySelector(".error").innerHTML="";
     }
 }).catch
