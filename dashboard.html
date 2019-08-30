@@ -22,21 +22,23 @@
         
 
 
-        
+        <li class="nav-item">
+          <a class="nav-link active" href="#!">Home</a>
+        </li>
         <li class="nav-item">
           <a class="nav-link" href="#!">Our Clients</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#!">Project</a>
+          <a class="nav-link" href="#!">Works</a>
         </li>
         <li class="nav-item">
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#loginModal">
-            Log In
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#projectModal">
+            Add Project Details
           </button>
         </li>
         <li class="nav-item">
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#signupModal">
-            Sign Up
+          <button type="button" class="btn btn-primary" id="log-out">
+            logout
           </button>
         </li>
       </ul>
@@ -47,53 +49,15 @@
   </div>
 
 
-  <!-- log in Modal -->
-  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+ 
+  <!-- submit project Modal -->
+  <div class="modal fade" id="projectModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <img src="" alt="logo" />
-          <h5 class="modal-title " id="exampleModalLabel">Log In</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <form id="login-form">
-            <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control" id="login-email" aria-describedby="emailHelp"
-                placeholder="abcxyz@example.com" required>
-
-            </div>
-            <div class="form-group">
-              <label for="exampleInputPassword1">Password</label>
-              <input type="password" class="form-control" id="login-password" placeholder="**********" required>
-              <small id="emailHelp" class="form-text text-muted">We'll never share your password with anyone
-                else.</small>
-            </div>
-
-            <button type="submit" class="btn modalbtn btn-primary">Log In</button>
-          </form>
-          <p class="error red-text text-lighten-1 center"></p>
-        </div>
-        <div class="modal-footer">
-          <p class="signuptext">Dont Have An Account</p>
-          <button type="button" class="btn signupmodalbtn btn-primary" data-toggle="modal"
-            data-target="#signupModal">Sign Up</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- sign up Modal -->
-  <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <img src="" alt="logo" />
-          <h5 class="modal-title " id="exampleModalLabel">Sign Up</h5>
+          <h5 class="modal-title " id="exampleModalLabel">Project Details</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -101,26 +65,36 @@
         <div class="modal-body">
           <form id="signup-data" >
             <div class="form-group">
-              <label for="exampleInputName1">First Name</label>
-              <input type="text" class="form-control" id="first_name" required>
+              <label for="exampleInputName1">Project Name</label>
+              <input type="text" class="form-control" id="p_name" required>
             </div>
             <div class="form-group">
-              <label for="exampleInputName1">Last Name</label>
-              <input type="text" class="form-control" id="last_name" required>
+              <label for="exampleInputName1">Company Name</label>
+              <input type="text" class="form-control" id="c_name" required>
             </div>
             <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label>
+              <label for="exampleInputName1">Phone number</label>
+              <input type="number" class="form-control" id="c_name" required>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Company/personal Email address</label>
               <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
                 placeholder="abcxyz@example.com" required>
 
             </div>
             <div class="form-group">
-              <label for="exampleInputPassword1">Password</label>
-              <input type="password" class="form-control" id="password" placeholder="*********" required>
-              <small id="emailHelp" class="form-text text-muted">We'll never share your password with anyone
-                else.</small>
+              <label for="exampleInputPassword1">Type of Web Project</label>
+              <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                <option selected>Choose...</option>
+                <option value="1">E-commerce</option>
+                <option value="2">Static</option>
+                <option value="3">Gaming</option>
+              </select>
             </div>
-
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Brief Of the Project</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
             <button type="submit" class=" modal-close btn modalbtn btn-primary">Sign up</button>
           </form>
         </div>
@@ -164,7 +138,7 @@
 
 
   </script>
-<script src="js/auth.js"></script>
+<script src="js/authOut.js"></script>
  
 </body>
 
