@@ -24,6 +24,9 @@
 	margin-left: 130px;
 	margin-bottom: 10px;
 }
+.error{
+	color:rgb(247, 4, 4);
+}
 .signupmodalbtn{
 	margin-right: 90px;
 }
