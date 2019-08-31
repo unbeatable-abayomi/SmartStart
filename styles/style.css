@@ -7,8 +7,10 @@
 .logo {
 	position: absolute;
 	left: 12px;
-	top: 2rem;
+	top: 1.1rem;
+	font-size: 30px;
 }
+
 .nav-contents {
 	height: 15vh;
 }
@@ -16,27 +18,31 @@
 	margin: 1rem;
 	font-size: 20px;
 }
-.modal-title{
+
+a:hover {
+	cursor: pointer;
+}
+.modal-title {
 	margin-left: 150px;
 }
-.modalbtn{
+.modalbtn {
 	margin-top: 30px;
 	margin-left: 130px;
 	margin-bottom: 10px;
 }
-.error{
-	color:rgb(247, 4, 4);
+.error {
+	color: rgb(247, 4, 4);
 }
-.signupmodalbtn{
+.signupmodalbtn {
 	margin-right: 90px;
 }
-.signuptext{
+.signuptext {
 	margin-top: 30px;
-	padding-right:10px;
+	padding-right: 10px;
 }
-form{
-	width:70%;
-	margin:auto;
+form {
+	width: 70%;
+	margin: auto;
 }
 @media (max-width: 425px) {
 	.nav-item {
