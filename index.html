@@ -17,7 +17,7 @@
 <!-- navbar -->
     <nav>
         <a href="index.html" class="logo navbar-brand">
-            <i class="icon ion-md-planet"></i>
+            <img src="./img/logo.png" alt="logo" width="70">
           </a>
       <ul class="nav justify-content-center nav-contents" style="background-color: #e3f2fd;">
         
@@ -57,13 +57,13 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-            <i class="icon ion-md-planet"></i>
+          <img src="./img/logo.png" alt="logo" width="50">
           <h5 class="modal-title " id="exampleModalLabel">Log In</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body">
+        <div class="modal-body loginbgd" >
           <form id="login-form">
             <div class="form-group">
               <label for="exampleInputEmail1">Email address</label>
@@ -80,29 +80,29 @@
             <p class="error"></p>
             <button type="submit" class="btn modalbtn btn-primary">Log In</button>
           </form>
-          
+          <div class="modal-footer">
+            <p class="signuptext">Dont Have An Account</p>
+            <button type="button" class="btn signupmodalbtn btn-primary" data-dismiss="modal" data-toggle="modal"
+              data-target="#signupModal">Sign Up</button>
+          </div>
         </div>
-        <div class="modal-footer">
-          <p class="signuptext">Dont Have An Account</p>
-          <button type="button" class="btn signupmodalbtn btn-primary" data-dismiss="modal" data-toggle="modal"
-            data-target="#signupModal">Sign Up</button>
-        </div>
+        
       </div>
     </div>
   </div>
   <!-- sign up Modal -->
   <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
+    aria-hidden="true" data-target="#exampleModalScrollable">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-            <i class="icon ion-md-planet"></i>
+          <img src="./img/logo.png" alt="logo" width="50">
           <h5 class="modal-title " id="exampleModalLabel">Sign Up</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body">
+        <div class="modal-body signupbgd">
           <form id="signup-data" >
             <div class="form-group">
               <label for="exampleInputName1">First Name</label>
@@ -126,7 +126,13 @@
             </div>
 
             <button type="submit"  class=" modal-close btn modalbtn btn-primary" >Sign up</button>
+            
           </form>
+          <div class="modal-footer">
+            <p class="signuptext">Already Have An Account</p>
+            <button type="button" class="btn signupmodalbtn btn-primary" data-dismiss="modal" data-toggle="modal"
+              data-target="#loginModal">Log In</button>
+          </div>
         </div>
 
       </div>
