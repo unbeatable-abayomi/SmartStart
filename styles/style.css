@@ -22,9 +22,7 @@
 a:hover {
 	cursor: pointer;
 }
-.modal-title {
-	margin-left: 150px;
-}
+
 body {
 	background-image: url('../img/Rectangle.svg');
 	background-repeat: no-repeat;
@@ -63,6 +61,7 @@ li {
 .undraw_team_spirit {
 	margin-left: 6rem;
 }
+
 .div_what_is_smartstart {
 	margin-top: 6rem;
 }
@@ -90,15 +89,32 @@ li {
 
 /* dev-abayomi styles end here */
 
+.modal-title {
+	margin-left: 190px;
+	color:rgb(247, 230, 246);
+	font-size: 30px;
+}
 .modalbtn {
-	margin-top: 30px;
+	margin-top: 20px;
 	margin-left: 130px;
 	margin-bottom: 10px;
+	background: #800080 !important;
+	border: none !important;
+	font-size: 20px !important;
+	
 }
-.modal-header {
+
+
+.modal-header{
+	width:600px;
 	background: #800080;
 }
+.modal-body{
+	width:600px;
+}
+
 .loginbgd {
+
 	background-image: url('../img/modalimg.png');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -106,7 +122,9 @@ li {
 .signupbgd {
 	background-image: url('../img/modalimg.png');
 	background-repeat: no-repeat;
-	background-size: cover;
+
+  background-size: 600px 608px;
+
 }
 
 .error {
@@ -114,10 +132,15 @@ li {
 }
 .signupmodalbtn {
 	margin-right: 90px;
+	background: #800080 !important;
+	border: none !important;
+	font-size: 20px !important;
 }
 .signuptext {
-	margin-top: 30px;
+	margin-top: 10px;
 	padding-right: 10px;
+	font-weight: 900 !important;
+	color: #800080 !important;
 }
 form {
 	width: 60%;
