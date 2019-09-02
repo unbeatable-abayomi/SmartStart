@@ -4,6 +4,9 @@
 	box-sizing: border-box;
 	font-family: 'Ubuntu', sans-serif;
 }
+body {
+	overflow-x: hidden;
+}
 .logo {
 	position: absolute;
 	left: 12px;
@@ -122,6 +125,9 @@ li {
 
 	background-size: 600px 608px;
 }
+.modal-footer {
+	border: none !important;
+}
 
 .error {
 	color: rgb(247, 4, 4);
@@ -143,6 +149,50 @@ form {
 	margin-top: 30px;
 	margin-left: 20px;
 }
+
+/* footer styles start */
+
+footer {
+	background-color: #800080;
+	height: 14rem;
+	margin-top: 2rem;
+}
+.footer-container {
+	padding-top: 40px;
+}
+.footer-text {
+	color: #ffffff;
+}
+.footer-heading {
+	font-size: 25px;
+}
+.form-inline {
+	display: flex !important;
+}
+.footer-paragraph {
+	font-size: 14px;
+}
+.form-control-lg {
+	border-radius: 0px !important;
+	width: 15rem;
+}
+.footer-input {
+	border: 1px solid#2196F3;
+	padding: 11px 50px;
+	color: #ffffff;
+	background-color: #2196f3;
+}
+.footer-logo {
+	float: left;
+}
+.footer-input:hover {
+	text-decoration: none;
+}
+address {
+	color: #fff;
+}
+
+/* footer styles end */
 
 /* media query  */
 
