@@ -25,11 +25,68 @@ a:hover {
 .modal-title {
 	margin-left: 150px;
 }
+body {
+	background-image: url('../img/Rectangle.svg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.navigation-items {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.navbar-brand {
+	margin-top: -2rem;
+}
+.register_login {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+li {
+	list-style: none;
+}
+
+.logout {
+	border: solid 1px #fff;
+}
+
+.register_login {
+	margin-right: 8rem;
+}
+.details {
+	margin-top: 2rem;
+}
+.details_one {
+	margin-left: -2rem;
+}
+.undraw_team_spirit {
+	margin-left: 6rem;
+}
+.div_what_is_smartstart {
+	margin-top: 6rem;
+}
+/* dev-abayomi styles end here */
+
 .modalbtn {
 	margin-top: 30px;
 	margin-left: 130px;
 	margin-bottom: 10px;
 }
+.modal-header {
+	background: #800080;
+}
+.loginbgd {
+	background-image: url('../img/modalimg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.signupbgd {
+	background-image: url('../img/modalimg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 .error {
 	color: rgb(247, 4, 4);
 }
@@ -41,9 +98,13 @@ a:hover {
 	padding-right: 10px;
 }
 form {
-	width: 70%;
-	margin: auto;
+	width: 60%;
+	margin-top: 30px;
+	margin-left: 20px;
 }
+
+/* media query  */
+
 @media (max-width: 425px) {
 	.nav-item {
 		margin: 0rem;
