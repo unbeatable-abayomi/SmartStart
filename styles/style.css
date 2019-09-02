@@ -25,6 +25,46 @@ a:hover {
 .modal-title {
 	margin-left: 150px;
 }
+body {
+	background-image: url('../img/Rectangle.svg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.navigation-items {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.navbar-brand {
+	margin-top: -2rem;
+}
+.register_login {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+li {
+	list-style: none;
+}
+
+.logout {
+	border: solid 1px #fff;
+}
+
+.register_login {
+	margin-right: 8rem;
+}
+.details {
+	margin-top: 2rem;
+}
+.details_one {
+	margin-left: -2rem;
+}
+.undraw_team_spirit {
+	margin-left: 6rem;
+}
+/* dev-abayomi styles end here */
+
 .modalbtn {
 	margin-top: 30px;
 	margin-left: 130px;
@@ -44,6 +84,9 @@ form {
 	width: 70%;
 	margin: auto;
 }
+
+/* media query  */
+
 @media (max-width: 425px) {
 	.nav-item {
 		margin: 0rem;
