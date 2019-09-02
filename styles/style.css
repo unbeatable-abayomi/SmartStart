@@ -62,6 +62,9 @@ li {
 	margin-left: 6rem;
 }
 
+.div_what_is_smartstart {
+	margin-top: 6rem;
+}
 /* dev-abayomi styles end here */
 
 .modal-title {
@@ -79,6 +82,7 @@ li {
 	
 }
 
+
 .modal-header{
 	width:600px;
 	background: #800080;
@@ -88,15 +92,20 @@ li {
 }
 .loginbgd{
 	
-	background-image: url('../img/modalimg.png');
-	background-repeat: no-repeat;
-  background-size: cover;
 
+.modal-header {
+	background: #800080;
 }
-.signupbgd{
-	
+.loginbgd {
+
 	background-image: url('../img/modalimg.png');
 	background-repeat: no-repeat;
+	background-size: cover;
+}
+.signupbgd {
+	background-image: url('../img/modalimg.png');
+	background-repeat: no-repeat;
+
   background-size: 600px 608px;
 
 }
@@ -119,7 +128,7 @@ li {
 form {
 	width: 60%;
 	margin-top: 30px;
-	margin-left:20px;
+	margin-left: 20px;
 }
 
 /* media query  */
