@@ -77,7 +77,7 @@ li {
 .our_statement_one,
 .our_statement_two,
 .our_statement_three {
-	border-left: 2px solid green;
+	border-left: 2px solid #800080;
 	height: 13rem;
 	position: absolute;
 	/* bottom: -10; */
