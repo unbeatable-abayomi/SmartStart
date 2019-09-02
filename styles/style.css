@@ -66,6 +66,28 @@ li {
 .div_what_is_smartstart {
 	margin-top: 6rem;
 }
+.what_do_we_do {
+	margin: 2rem;
+}
+.our_statement {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.our_statement_one,
+.our_statement_two,
+.our_statement_three {
+	border-left: 2px solid green;
+	height: 13rem;
+	position: absolute;
+	/* bottom: -10; */
+}
+.our_statement_one p,
+.our_statement_two p,
+.our_statement_three p {
+	padding-left: 1.5rem;
+}
+
 /* dev-abayomi styles end here */
 
 .modalbtn {
