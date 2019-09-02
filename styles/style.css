@@ -30,6 +30,24 @@ a:hover {
 	margin-left: 130px;
 	margin-bottom: 10px;
 }
+.modal-header{
+	background: #800080;
+}
+.loginbgd{
+	
+	background-image: url('../img/modalimg.png');
+	background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.signupbgd{
+	
+	background-image: url('../img/modalimg.png');
+	background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
 .error {
 	color: rgb(247, 4, 4);
 }
@@ -41,8 +59,9 @@ a:hover {
 	padding-right: 10px;
 }
 form {
-	width: 70%;
-	margin: auto;
+	width: 60%;
+	margin-top: 30px;
+	margin-left:20px;
 }
 @media (max-width: 425px) {
 	.nav-item {
