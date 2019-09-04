@@ -154,10 +154,33 @@ form {
 
 footer {
 	background-color: #800080;
-	height: 14rem;
+	height: 15rem;
 	margin-top: 2rem;
 }
-.footer-container {
+.footer-box {
+	padding-top: 1.5rem;
+	color: #fff;
+	margin-bottom: 0;
+}
+.newsletter_address_div_container {
+	display: flex;
+	justify-content: space-between;
+}
+.join_now {
+	position: absolute;
+	right: 46.6rem;
+	margin-top: -3rem;
+	height: 3rem;
+	width: 10rem;
+	background-color: #0000;
+	color: #fff;
+}
+.input_newsletter {
+	width: 20rem;
+	height: 3rem;
+}
+
+/* .footer-container {
 	padding-top: 40px;
 }
 .footer-text {
@@ -181,10 +204,8 @@ footer {
 	padding: 11px 50px;
 	color: #ffffff;
 	background-color: #2196f3;
-}
-.footer-logo {
-	float: left;
-}
+} */
+
 .footer-input:hover {
 	text-decoration: none;
 }
