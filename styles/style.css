@@ -180,31 +180,12 @@ footer {
 	height: 3rem;
 }
 
-/* .footer-container {
-	padding-top: 40px;
+.incoming_data {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 10px;
 }
-.footer-text {
-	color: #ffffff;
-}
-.footer-heading {
-	font-size: 25px;
-}
-.form-inline {
-	display: flex !important;
-}
-.footer-paragraph {
-	font-size: 14px;
-}
-.form-control-lg {
-	border-radius: 0px !important;
-	width: 15rem;
-}
-.footer-input {
-	border: 1px solid#2196F3;
-	padding: 11px 50px;
-	color: #ffffff;
-	background-color: #2196f3;
-} */
 
 .footer-input:hover {
 	text-decoration: none;

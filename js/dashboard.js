@@ -5,6 +5,7 @@ let phoneNumber = document.querySelector('#ph_name');
 let email = document.querySelector('#email');
 let projectType = document.querySelector('#inlineFormCustomSelect');
 let projectBrief = document.querySelector('#exampleFormControlTextarea1');
+let incomingData = document.querySelector('#incoming_data');
 
 const api_key = 'keyCG9udfoxuLbYEj';
 axios.defaults.baseURL = 'https://api.airtable.com/v0/appdYYz9aES7tz5xp/';
@@ -73,25 +74,30 @@ signUpform.addEventListener('submit', (e) => {
 		let clients_info = response.data.records;
 		console.log(clients_info);
 		console.log(clients_info[0].fields);
-		let meals_outputted = '';
-		various_meals.forEach((index) => {
-			meals_outputted += `
+		let clients_info_outputted = '';
+		clients_info.forEach((index) => {
+			clients_info_outputted += `
             
      <div>
-         <img src="${index.fields.image_link}" width="300px" height="250px" >
-         <button class="btn-lunch">${index.fields.Category}</button>
-         <div class="first-dish-lower-div">
-             <h2>${index.fields.Name}</h2>
-             <h4>view recipe</h4>
-             <p>Monday-<time
-                 datetime="2019-05-15T19:00">${index.fields.cook_date}</time>.</p>
-
+        
+         <h1 class="project_name">${index.fields.company_name}</h1>
+           <div class="project_name_div">
+    <h2 class="project_name">${index.fields.project_name}</h2>
+           
+             <h3 class="project_type">Project Type</h3>    
+            <p>${index.fields.project_type}</p>
+            <h3 class="project_brief">Project Brief</h3>
+            <p>${index.fields.project_brief}</p>
+            <h4 class="phone_number>Phone No:</h4>
+            <p>${index.fields.phone_number}</p>
+            <em>email</em>    
+            <p>${index.fields.email}</p>
         
       </div>
       </div>
          `;
 		});
 
-		dishes.innerHTML = meals_outputted;
+		incomingData.innerHTML = clients_info_outputted;
 	});
 });
