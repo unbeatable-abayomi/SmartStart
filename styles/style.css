@@ -90,6 +90,14 @@ li {
 	padding-left: 1.5rem;
 }
 
+/* #incoming_data , */
+.one {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 30rem;
+}
+
 /* dev-abayomi styles end here */
 
 .modal-title {
@@ -178,13 +186,6 @@ footer {
 .input_newsletter {
 	width: 20rem;
 	height: 3rem;
-}
-
-.incoming_data {
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	margin-top: 10px;
 }
 
 .footer-input:hover {
