@@ -5,7 +5,7 @@ let phoneNumber = document.querySelector('#ph_name');
 let email = document.querySelector('#email');
 let projectType = document.querySelector('#inlineFormCustomSelect');
 let projectBrief = document.querySelector('#exampleFormControlTextarea1');
-let incomingData = document.querySelector('.one');
+let incomingData = document.querySelector('.incoming_data');
 
 const api_key = 'keyCG9udfoxuLbYEj';
 axios.defaults.baseURL = 'https://api.airtable.com/v0/appdYYz9aES7tz5xp/';
