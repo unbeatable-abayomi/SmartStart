@@ -5,7 +5,7 @@ let phoneNumber = document.querySelector('#ph_name');
 let email = document.querySelector('#email');
 let projectType = document.querySelector('#inlineFormCustomSelect');
 let projectBrief = document.querySelector('#exampleFormControlTextarea1');
-let incomingData = document.querySelector('#incoming_data');
+let incomingData = document.querySelector('.one');
 
 const api_key = 'keyCG9udfoxuLbYEj';
 axios.defaults.baseURL = 'https://api.airtable.com/v0/appdYYz9aES7tz5xp/';
@@ -56,7 +56,7 @@ signUpform.addEventListener('submit', (e) => {
 		})
 		.then((res) => {
 			console.log(res);
-			clients_data.unshift(new_clients);
+			clients_data.push(new_clients);
 			console.log(clients_data);
 			projectName.value = '';
 			companyName.value = '';

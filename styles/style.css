@@ -2,15 +2,17 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: 'Ubuntu', sans-serif;
+
+	font-family: Montserrat;
+	/* font-family: 'Montserrat Alternates', sans-serif; */
 }
 body {
 	overflow-x: hidden;
 }
 .logo {
 	position: absolute;
-	left: 12px;
-	top: 1.1rem;
+	left: 3rem;
+	top: 3.3rem;
 	font-size: 30px;
 }
 
@@ -27,7 +29,7 @@ a:hover {
 }
 
 body {
-	background-image: url('../img/Rectangle.svg');
+	/* background-image: url('../img/Rectangle.svg'); */
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
@@ -90,6 +92,14 @@ li {
 	padding-left: 1.5rem;
 }
 
+/* #incoming_data , */
+.one {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 30rem;
+}
+
 /* dev-abayomi styles end here */
 
 .modal-title {
@@ -115,12 +125,12 @@ li {
 }
 
 .loginbgd {
-	background-image: url('../img/modalimg.png');
+	background-image: url('../img/modalimg.svg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .signupbgd {
-	background-image: url('../img/modalimg.png');
+	background-image: url('../img/modalimg.svg');
 	background-repeat: no-repeat;
 
 	background-size: 600px 608px;
@@ -178,13 +188,6 @@ footer {
 .input_newsletter {
 	width: 20rem;
 	height: 3rem;
-}
-
-.incoming_data {
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	margin-top: 10px;
 }
 
 .footer-input:hover {
