@@ -108,56 +108,59 @@ li {
 	font-size: 30px;
 }
 .modalbtn {
-	margin-top: 20px;
-	margin-left: 130px;
+	margin-top: 40px;
 	margin-bottom: 10px;
 	background: #800080 !important;
 	border: none !important;
 	font-size: 20px !important;
 }
 
-.modal-header {
-	width: 600px;
-	background: #800080;
-}
-.modal-body {
-	width: 600px;
-}
-
-.loginbgd {
-	background-image: url('../img/modalimg.svg');
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-.signupbgd {
-	background-image: url('../img/modalimg.svg');
-	background-repeat: no-repeat;
-
-	background-size: 600px 608px;
-}
-.modal-footer {
-	border: none !important;
+.signinupbgd {
+	width: 50%;
+	margin: auto;
+	color: black;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
 }
 
 .error {
 	color: rgb(247, 4, 4);
 }
-.signupmodalbtn {
-	margin-right: 90px;
-	background: #800080 !important;
+.signinupbtn {
+	color: black;
+	background: #ffffff !important;
 	border: none !important;
 	font-size: 20px !important;
+	font-weight: 900 !important;
 }
-.signuptext {
+.signinuptext {
 	margin-top: 10px;
 	padding-right: 10px;
-	font-weight: 900 !important;
-	color: #800080 !important;
+	color: #141414 !important;
+	font-weight: normal !important;
+	font-size: 16px;
+	line-height: 20px;
 }
+.topword{
+	margin-top: 60px;
+}
+.create{
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 39px;
+}
+
+.detail{
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+}
+
 form {
-	width: 60%;
-	margin-top: 30px;
-	margin-left: 20px;
+	width: 100%;
+	margin-top: 50px;
+	/* margin-left: 20px; */
 }
 
 /* footer styles start */
