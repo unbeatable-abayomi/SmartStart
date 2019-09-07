@@ -11,7 +11,7 @@ body {
 }
 .logo {
 	position: absolute;
-	left: 3rem;
+	left: 6rem;
 	top: 3.3rem;
 	font-size: 30px;
 }
@@ -21,9 +21,16 @@ body {
 }
 .nav-item {
 	margin: 1rem;
-	font-size: 20px;
+	/* font-size: 20px; */
 }
-
+.nav-link {
+	color: rgb(12, 11, 11);
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 20px;
+}
 a:hover {
 	cursor: pointer;
 }
@@ -49,7 +56,25 @@ body {
 li {
 	list-style: none;
 }
-
+.startsmart_details {
+	margin-top: 6rem;
+}
+.div_engage_us {
+	margin-top: 1.5rem;
+}
+#get_started_link {
+	width: 16rem;
+}
+.engage_us_text {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	/* font-size: 48px; */
+	/* line-height: 60px; */
+}
+.our_project_tools {
+	margin-top: 1rem;
+}
 .logout {
 	border: solid 1px #fff;
 }
@@ -77,6 +102,7 @@ li {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+	margin-top: 6rem;
 }
 .our_statement_one,
 .our_statement_two,
@@ -84,7 +110,6 @@ li {
 	border-left: 2px solid #d32d91;
 	height: 13rem;
 	position: absolute;
-	/* bottom: -10; */
 }
 .our_statement_one p,
 .our_statement_two p,
@@ -108,62 +133,65 @@ li {
 	font-size: 30px;
 }
 .modalbtn {
-	margin-top: 20px;
-	margin-left: 130px;
+	margin-top: 40px;
 	margin-bottom: 10px;
 	background: #800080 !important;
 	border: none !important;
 	font-size: 20px !important;
 }
 
-.modal-header {
-	width: 600px;
-	background: #800080;
-}
-.modal-body {
-	width: 600px;
-}
-
-.loginbgd {
-	background-image: url('../img/modalimg.svg');
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-.signupbgd {
-	background-image: url('../img/modalimg.svg');
-	background-repeat: no-repeat;
-
-	background-size: 600px 608px;
-}
-.modal-footer {
-	border: none !important;
+.signinupbgd {
+	width: 50%;
+	margin: auto;
+	color: black;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
 }
 
 .error {
 	color: rgb(247, 4, 4);
 }
-.signupmodalbtn {
-	margin-right: 90px;
-	background: #800080 !important;
+.signinupbtn {
+	color: black;
+	background: #ffffff !important;
 	border: none !important;
 	font-size: 20px !important;
+	font-weight: 900 !important;
 }
-.signuptext {
+.signinuptext {
 	margin-top: 10px;
 	padding-right: 10px;
-	font-weight: 900 !important;
-	color: #800080 !important;
+	color: #141414 !important;
+	font-weight: normal !important;
+	font-size: 16px;
+	line-height: 20px;
 }
+.topword {
+	margin-top: 60px;
+}
+.create {
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 39px;
+}
+
+.detail {
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+}
+
 form {
-	width: 60%;
-	margin-top: 30px;
-	margin-left: 20px;
+	width: 100%;
+	margin-top: 50px;
+	/* margin-left: 20px; */
 }
 
 /* footer styles start */
 
 footer {
-	background-color: #800080;
+	background-color: rgb(12, 11, 11);
 	height: 15rem;
 	margin-top: 2rem;
 }
@@ -171,23 +199,28 @@ footer {
 	padding-top: 1.5rem;
 	color: #fff;
 	margin-bottom: 0;
+	margin-left: -1rem;
 }
 .newsletter_address_div_container {
 	display: flex;
 	justify-content: space-between;
 }
+.address_div {
+	margin-top: 1.5rem;
+}
 .join_now {
 	position: absolute;
 	right: 46.6rem;
-	margin-top: -3rem;
+	margin-top: 0rem;
 	height: 3rem;
-	width: 10rem;
-	background-color: #0000;
+	width: 11.2rem;
+	background: #800080;
 	color: #fff;
 }
 .input_newsletter {
 	width: 20rem;
 	height: 3rem;
+	background: #c4c4c4;
 }
 
 .footer-input:hover {
