@@ -47,12 +47,12 @@
       </ul>
  <div class="register_login">
     <li class="nav-item">
-        <a class="nav-link login" class="loginModal" href="signin.html">
+        <a class="nav-link login" class="loginModal" data-toggle="modal" data-target="#loginModal">
           Log In
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link logout" href="signup.html">
+        <a class="nav-link logout"  data-toggle="modal" data-target="#signupModal">
           Register
         </a>
       </li>
@@ -71,9 +71,9 @@
         Hi,We Are StartSmart
         </h1>
         <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, sint. Totam sapiente, dolores iure quidem eligendi rerum veniam voluptate velit.</h3>
-        <a class="btn btn-outline-info" href="si">
+        <button class="btn btn-outline-info" data-toggle="modal" data-target="#signupModal">
           Get Started
-        </a>
+        </button>
         
         </div>
         <div class="col-1"></div>
@@ -179,7 +179,7 @@
 
 
   <!-- log in Modal -->
-  <!-- <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -216,9 +216,9 @@
         
       </div>
     </div>
-  </div> -->
+  </div>
   <!-- sign up Modal -->
-  <!-- <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
     aria-hidden="true" data-target="#exampleModalScrollable">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -263,7 +263,7 @@
         </div>
 
       </div>
-    </div> -->
+    </div>
  
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
