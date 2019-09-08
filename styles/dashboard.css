@@ -1,0 +1,77 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Montserrat;
+	/* font-family: 'Montserrat Alternates', sans-serif; */
+}
+body {
+	overflow-x: hidden;
+}
+.dashboard-items {
+	background: #000000;
+	color: #fff;
+	height: 100vh;
+	font-family: Montserrat;
+	font-style: normal;
+}
+.logo_dashboard {
+	margin-top: 1rem;
+	margin-left: 3.5rem;
+}
+.dashboard-links {
+	margin: 3.6rem;
+}
+.dashboard-links:hover {
+	background: #800080;
+	width: 13rem;
+	padding: .8rem;
+	border-radius: 6px;
+	cursor: pointer;
+}
+.search_customer_name {
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+}
+.create_project_button {
+	background: #800080;
+	border-radius: 6px;
+	padding: .4rem;
+	width: 9rem;
+	color: #fff;
+	border: none;
+}
+.board-items_letter {
+	background: #800080;
+	border-radius: 70%;
+	width: 3.5rem;
+	color: #fff;
+	margin-bottom: 2rem;
+	font-style: bold;
+	font-weight: 900;
+	padding: 3px;
+}
+.projectlist_createProject {
+	margin-bottom: 3rem;
+}
+ul li {
+	list-style: none;
+}
+.date_options {
+	display: flex;
+	justify-content: space-between;
+}
+.board-items {
+	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+	background: #ffffff;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	margin: 1rem;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+}
+.dashboard-section {
+	margin-bottom: 4rem;
+}
