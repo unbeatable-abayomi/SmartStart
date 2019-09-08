@@ -68,33 +68,72 @@
     
     <!-- new navbar  end -->
 
-
+    <div class="row">
+       
+        
+      </div>
 <div class="row dashboard">
 
 <div class="col-3 dashboard-items" >
 <div class="col-12 logo_dashboard"><img src="./img/startsmart.png" alt="logo" class="logo navbar-brand"/></div>
-<div class="col-12 dashboard-links">Dashboard</div>
-<div class="col-12 dashboard-links">Projects</div>
-<div class="col-12 dashboard-links">Messages</div>
-<div class="col-12 dashboard-links">Settings</div>
-<div class="col-12 dashboard-links">Contact Support</div>
+<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <a class=" dashboard-links active" id="v-pills-dashboard-tab" data-toggle="pill" href="#v-pills-dashboard" role="tab" aria-controls="v-pills-dashboard" aria-selected="true">Dashboard</a>
+    <a class=" dashboard-links" id="v-pills-projects-tab" data-toggle="pill" href="#v-pills-projects" role="tab" aria-controls="v-pills-projects" aria-selected="false">Projects</a>
+    <a class="dashboard-links" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
+    <a class=" dashboard-links" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
+    <a class=" dashboard-links" id="v-pills-support-tab" data-toggle="pill" href="#v-pills-support" role="tab" aria-controls="v-pills-support" aria-selected="false">Contact Support</a>
+  </div>
 </div>
 <div class="col-1"></div>
 <div class="col-8">
-    <div class="row search_customer_name">
-        <div class="col-4">Search</div>
-        <div class="col-4"></div>
-        <div class="col-4">Jerry Thomas</div>
-      </div>
-      <div class="row projectlist_createProject">
-          <div class="col-4">Project Lists</div>
-          <div class="col-4"> </div>
-          <div class="col-4">
-            <button class="create_project_button">Create Project</button>
+    <div class="tab-content" id="v-pills-tabContent">
+      <div class="tab-pane fade show active" id="v-pills-dashboard" role="tabpanel" aria-labelledby="v-pills-dashboard-tab">
+          <div class="row search_customer_name">
+              <div class="col-4">Search</div>
+              <div class="col-4"></div>
+              <div class="col-4">Jerry Thomas</div>
             </div>
-        </div>
-        <!-- first-row -->
-        <div class="row">
+            <div class="row projectlist_createProject">
+                <div class="col-4">Dashboard</div>
+                <div class="col-4"> </div>
+                <div class="col-4">
+                  <button class="create_project_button" data-toggle="modal" data-target="#projectModal">Create Project</button>
+                  </div>
+              </div>
+              <!-- first-row -->
+              <div class="row">
+                  <div class="col-3 board-items">
+                  <ul class="date_options">
+                    <li>01/02/19</li>
+                    <li>...</li>
+                  </ul>
+                    <center>
+                      <h1 class="board-items_letter">E</h1></center>
+                    <center><p class="dashboard-section">E-Commerce Website</p></center>
+                  </div>
+                  <div class="col-3 board-items">
+                      <ul class="date_options">
+                          <li>01/02/19</li>
+                          <li>...</li>
+                        </ul>
+                          <center>
+                            <h1 class="board-items_letter">C</h1></center>
+                          <center><p class="dashboard-section">Corporate Website</p></center>
+            
+                    
+                     </div>
+                  <div class="col-3 board-items">
+                      <ul class="date_options">
+                          <li>01/02/19</li>
+                          <li>...</li>
+                        </ul>
+                          <center>
+                            <h1 class="board-items_letter">IN</h1></center>
+                          <center><p class="dashboard-section">Website Redesign</p></center>
+                  </div>
+                </div>
+         <!-- second row -->
+         <div class="row">
             <div class="col-3 board-items">
             <ul class="date_options">
               <li>01/02/19</li>
@@ -123,56 +162,153 @@
                     <center>
                       <h1 class="board-items_letter">IN</h1></center>
                     <center><p class="dashboard-section">Website Redesign</p></center>
-            </div>
+      
+              
+              </div>
           </div>
-   <!-- second row -->
-   <div class="row">
-      <div class="col-3 board-items">
-      <ul class="date_options">
-        <li>01/02/19</li>
-        <li>...</li>
-      </ul>
-        <center>
-          <h1 class="board-items_letter">E</h1></center>
-        <center><p class="dashboard-section">E-Commerce Website</p></center>
       </div>
-      <div class="col-3 board-items">
-          <ul class="date_options">
+      <div class="tab-pane fade" id="v-pills-projects" role="tabpanel" aria-labelledby="v-pills-projects-tab">
+         
+            <div class="row projectlist_createProject">
+                <div class="col-4">Project Lists</div>
+                <div class="col-4"> </div>
+                <div class="col-4">
+                  <button class="create_project_button">Create Project</button>
+                  </div>
+              </div>
+              <!-- first-row -->
+              <div class="row">
+                  <div class="col-3 board-items">
+                  <ul class="date_options">
+                    <li>01/02/19</li>
+                    <li>...</li>
+                  </ul>
+                    <center>
+                      <h1 class="board-items_letter">E</h1></center>
+                    <center><p class="dashboard-section">E-Commerce Website</p></center>
+                  </div>
+                  <div class="col-3 board-items">
+                      <ul class="date_options">
+                          <li>01/02/19</li>
+                          <li>...</li>
+                        </ul>
+                          <center>
+                            <h1 class="board-items_letter">C</h1></center>
+                          <center><p class="dashboard-section">Corporate Website</p></center>
+            
+                    
+                     </div>
+                  <div class="col-3 board-items">
+                      <ul class="date_options">
+                          <li>01/02/19</li>
+                          <li>...</li>
+                        </ul>
+                          <center>
+                            <h1 class="board-items_letter">IN</h1></center>
+                          <center><p class="dashboard-section">Website Redesign</p></center>
+                  </div>
+                </div>
+         <!-- second row -->
+         <div class="row">
+            <div class="col-3 board-items">
+            <ul class="date_options">
               <li>01/02/19</li>
               <li>...</li>
             </ul>
               <center>
-                <h1 class="board-items_letter">C</h1></center>
-              <center><p class="dashboard-section">Corporate Website</p></center>
-
-        
-         </div>
-      <div class="col-3 board-items">
-          <ul class="date_options">
-              <li>01/02/19</li>
-              <li>...</li>
-            </ul>
-              <center>
-                <h1 class="board-items_letter">IN</h1></center>
-              <center><p class="dashboard-section">Website Redesign</p></center>
-
-        
-        </div>
+                <h1 class="board-items_letter">E</h1></center>
+              <center><p class="dashboard-section">E-Commerce Website</p></center>
+            </div>
+            <div class="col-3 board-items">
+                <ul class="date_options">
+                    <li>01/02/19</li>
+                    <li>...</li>
+                  </ul>
+                    <center>
+                      <h1 class="board-items_letter">C</h1></center>
+                    <center><p class="dashboard-section">Corporate Website</p></center>
+      
+              
+               </div>
+            <div class="col-3 board-items">
+                <ul class="date_options">
+                    <li>01/02/19</li>
+                    <li>...</li>
+                  </ul>
+                    <center>
+                      <h1 class="board-items_letter">IN</h1></center>
+                    <center><p class="dashboard-section">Website Redesign</p></center>
+      
+              
+              </div>
+          </div>
+      </div>
+      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+          <div class="row search_customer_name">
+              <div class="col-4">Search</div>
+              <div class="col-4"></div>
+              <div class="col-4">Jerry Thomas</div>
+            </div>
+            <div class="row projectlist_createProject">
+                <div class="col-4">Project Lists</div>
+                <div class="col-4"> </div>
+                <div class="col-4">
+                  <button class="create_project_button">Create Project</button>
+                  </div>
+              </div>
+             
+      </div>
+      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+          <div class="row search_customer_name">
+              <div class="col-4">Search</div>
+              <div class="col-4"></div>
+              <div class="col-4">Jerry Thomas</div>
+            </div>
+            
+      </div>
+      <div class="tab-pane fade" id="v-pills-support" role="tabpanel" aria-labelledby="v-pills-support-tab">
+          
+              <!-- first-row -->
+              <div class="row">
+                  <div class="col-3 board-items">
+                  <ul class="date_options">
+                    <li>01/02/19</li>
+                    <li>...</li>
+                  </ul>
+                    <center>
+                      <h1 class="board-items_letter">E</h1></center>
+                    <center><p class="dashboard-section">E-Commerce Website</p></center>
+                  </div>
+                  <div class="col-3 board-items">
+                      <ul class="date_options">
+                          <li>01/02/19</li>
+                          <li>...</li>
+                        </ul>
+                          <center>
+                            <h1 class="board-items_letter">C</h1></center>
+                          <center><p class="dashboard-section">Corporate Website</p></center>
+            
+                    
+                     </div>
+                  <div class="col-3 board-items">
+                      <ul class="date_options">
+                          <li>01/02/19</li>
+                          <li>...</li>
+                        </ul>
+                          <center>
+                            <h1 class="board-items_letter">IN</h1></center>
+                          <center><p class="dashboard-section">Website Redesign</p></center>
+                  </div>
+                </div>
+         <!-- second row -->
+         
+      </div>
     </div>
-
-</div>
+  </div>
 
 <div class="col-1"></div>
 
 </div>
-
-
-
-
-
-
-
-
 
 
   </div>
