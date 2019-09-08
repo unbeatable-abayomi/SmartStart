@@ -1,0 +1,40 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Montserrat;
+	/* font-family: 'Montserrat Alternates', sans-serif; */
+}
+body {
+	overflow-x: hidden;
+}
+.dashboard-items {
+	background: #000000;
+	color: #fff;
+	height: 100vh;
+}
+.dashboard-links {
+	margin: 5rem;
+}
+.search_customer_name {
+	margin-bottom: 5rem;
+}
+.projectlist_createProject {
+	margin-bottom: 5rem;
+}
+ul li {
+	list-style: none;
+}
+.date_options {
+	display: flex;
+	justify-content: space-between;
+}
+.board-items {
+	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+	background: #ffffff;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	margin: 1rem;
+}
+.dashboard-section {
+	margin-bottom: 4rem;
+}
