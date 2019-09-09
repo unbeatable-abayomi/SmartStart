@@ -33,6 +33,7 @@ a {
 .dashboard-links {
 	margin: 2rem;
 	margin-left: 5.5rem;
+	color: rgb(173, 169, 169) !important;
 }
 .dashboard-links:hover {
 	background: #800080;
@@ -40,6 +41,7 @@ a {
 	padding: .8rem;
 	border-radius: 6px;
 	cursor: pointer;
+	color: white !important;
 }
 .search_customer_name {
 	margin-top: 1rem;
