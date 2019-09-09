@@ -206,11 +206,12 @@ footer {
 	justify-content: space-between;
 }
 .address_div {
-	margin-top: 1.5rem;
+	margin-top: -4rem;
+	margin-right: 5rem;
 }
 .join_now {
 	position: absolute;
-	right: 46.6rem;
+	/* left: 1rem; */
 	margin-top: 0rem;
 	height: 3rem;
 	width: 11.2rem;
