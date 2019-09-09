@@ -152,12 +152,18 @@ li {
 .error {
 	color: rgb(247, 4, 4);
 }
-.signinupbtn {
-	color: black;
-	background: #ffffff !important;
-	border: none !important;
-	font-size: 18px !important;
-	font-weight: 900 !important;
+
+.btn-outline-dark {
+    color: #343a40;
+    background-color: transparent;
+    background-image: none;
+    border-color: #800080 !important;
+}
+.btn-outline-dark:hover {
+    
+    background-color:#800080 !important;
+    background-image: none;
+    border-color: #800080 !important;
 }
 .signinuptext {
 	margin-top: 10px;
