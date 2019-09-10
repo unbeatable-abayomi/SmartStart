@@ -2,9 +2,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-
 	font-family: Montserrat;
-	/* font-family: 'Montserrat Alternates', sans-serif; */
 }
 body {
 	overflow-x: hidden;
@@ -16,9 +14,9 @@ body {
 	font-size: 30px;
 }
 
-.nav-contents {
+/* .nav-contents {
 	height: 15vh;
-}
+} */
 .nav-item {
 	margin: 1rem;
 	/* font-size: 20px; */
@@ -31,14 +29,23 @@ body {
 	font-size: 18px;
 	line-height: 20px;
 }
+a {
+	color: #ffffff !important;
+	border: none !important;
+}
 a:hover {
 	cursor: pointer;
+	color: #ffffff !important;
 }
 
-body {
-	/* background-image: url('../img/Rectangle.svg'); */
+.startsmart_details_div {
+	background-image: url('../img/cms_S/adults-analysis-brainstorming-1661004.svg');
 	background-repeat: no-repeat;
 	background-size: 100%;
+	height: 100vh;
+}
+#startsmart_details {
+	margin-top: 8rem;
 }
 .navigation-items {
 	display: flex;
@@ -53,12 +60,11 @@ body {
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
+
 li {
 	list-style: none;
 }
-.startsmart_details {
-	margin-top: 6rem;
-}
+
 .div_engage_us {
 	margin-top: 1.5rem;
 }
@@ -69,8 +75,6 @@ li {
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: bold;
-	/* font-size: 48px; */
-	/* line-height: 60px; */
 }
 .our_project_tools {
 	margin-top: 1rem;
@@ -87,6 +91,7 @@ li {
 }
 .details_one {
 	margin-left: -2rem;
+	color: #ffffff;
 }
 .undraw_team_spirit {
 	margin-left: 6rem;
@@ -154,16 +159,15 @@ li {
 }
 
 .btn-outline-dark {
-    color: #343a40;
-    background-color: transparent;
-    background-image: none;
-    border-color: #800080 !important;
+	color: #343a40;
+	background-color: transparent;
+	background-image: none;
+	border-color: #800080 !important;
 }
 .btn-outline-dark:hover {
-    
-    background-color:#800080 !important;
-    background-image: none;
-    border-color: #800080 !important;
+	background-color: #800080 !important;
+	background-image: none;
+	border-color: #800080 !important;
 }
 .signinuptext {
 	margin-top: 10px;

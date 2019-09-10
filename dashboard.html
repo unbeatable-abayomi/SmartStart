@@ -8,16 +8,17 @@
   <link rel="icon" type="image/css" href='./img/full logo_with background-04.png'>
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./styles/dashboard.css">
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
- <title>StartSmart</title>
+  <title>StartSmart</title>
 </head>
 
 <body>
   <div class="main-container">
 
 
-   
+
     <!-- new navbar  start -->
     <!-- <nav class="navigation-items">
       <div class="logo_div">
@@ -65,171 +66,211 @@
  
 
 </nav>  -->
-    
-    
+
+
     <!-- new navbar  end -->
 
     <div class="row">
-       
-        
+
+
+    </div>
+    <div class="row dashboard">
+
+      <div class="col-3 dashboard-items">
+        <div class="col-12 logo_dashboard"><img src="./img/startsmart.png" alt="logo" class="logo navbar-brand" /></div>
+        <div class="nav flex-column nav-pills sidebar_contents" id="v-pills-tab" role="tablist"
+          aria-orientation="vertical">
+          <a class=" dashboard-links active" id="v-pills-dashboard-tab" data-toggle="pill" href="#v-pills-dashboard"
+            role="tab" aria-controls="v-pills-dashboard" aria-selected="true">
+            <img src="./img/cms_S/equalizer_24px.png" alt='equalizar' class="dashboard-icons" /> Dashboard</a>
+          <a class=" dashboard-links" id="v-pills-projects-tab" data-toggle="pill" href="#v-pills-projects" role="tab"
+            aria-controls="v-pills-projects" aria-selected="false"> <img src="img/cms_S/Group.svg" class="dashboard-icons" alt="phone" />
+            Projects</a>
+          <a class="dashboard-links" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
+            aria-controls="v-pills-messages" aria-selected="false"> <img src="img/cms_S/Group.svg"
+              alt="phone" class="dashboard-icons" />Messages</a>
+          <a class=" dashboard-links" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+            aria-controls="v-pills-settings" aria-selected="false"> <img src="img/cms_S/jam-settings-alt.png"
+              alt="phone" class="dashboard-icons" />Settings</a>
+          <a class=" dashboard-links" id="v-pills-support-tab" data-toggle="pill" href="#v-pills-support" role="tab"
+            aria-controls="v-pills-support" aria-selected="false">
+            <img src="img/cms_S/phone_24px.svg" class="dashboard-icons" alt="phone" />Contact Support</a>
+        </div>
       </div>
-<div class="row dashboard">
 
-<div class="col-3 dashboard-items" >
-<div class="col-12 logo_dashboard"><img src="./img/startsmart.png" alt="logo" class="logo navbar-brand"/></div>
-<div class="nav flex-column nav-pills sidebar_contents" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-    <a class=" dashboard-links active" id="v-pills-dashboard-tab" data-toggle="pill" href="#v-pills-dashboard" role="tab" aria-controls="v-pills-dashboard" aria-selected="true">
-       <img src="./img/cms_S/equalizer_24px.png" alt='equalizar' />  Dashboard</a>
-    <a class=" dashboard-links" id="v-pills-projects-tab" data-toggle="pill" href="#v-pills-projects" role="tab" aria-controls="v-pills-projects" aria-selected="false"> <img src="img/cms_S/Group.svg" alt="phone"/>    Projects</a>
-    <a class="dashboard-links" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false"> <img src="img/cms_S/Group.svg" alt="phone"/>Messages</a>
-    <a class=" dashboard-links" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"> <img src="img/cms_S/jam-settings-alt.png" alt="phone"/>Settings</a>
-    <a class=" dashboard-links" id="v-pills-support-tab" data-toggle="pill" href="#v-pills-support" role="tab" aria-controls="v-pills-support" aria-selected="false">
-        <img src="img/cms_S/phone_24px.svg" alt="phone"/>Contact Support</a>
-  </div>
-</div>
-<div class="col-1"></div>
-<div class="col-8">
-    <div class="tab-content" id="v-pills-tabContent">
 
-      <div class="tab-pane fade show active" id="v-pills-dashboard" role="tabpanel" aria-labelledby="v-pills-dashboard-tab">
-          
-          <div class="row search_customer_name">
+      <div class="col-1"></div>
+      <div class="col-8">
+        <div class="tab-content" id="v-pills-tabContent">
+
+
+          <div class="tab-pane fade show active" id="v-pills-dashboard" role="tabpanel"
+            aria-labelledby="v-pills-dashboard-tab">
+
+            <div class="row search_customer_name">
               <div class="col-4"><input type="text" class="form-control" id="search" placeholder="search"></div>
               <div class="col-4"></div>
               <div class="col-4">
-                  <div class="dropdown">
-                      <div class="dropdown-toggle"  id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <img src="./img/cms_S/Vector.svg" alt="group"/>
-                        jerry Thomas
-                      </div>
-                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Settings</a>
-                        <a class="dropdown-item" id="log-out">Log Out</a>
-                        
-                      </div>
-                    </div>
+                <div class="dropdown">
+                  <div class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    <img src="./img/cms_S/Vector.svg" alt="group" />
+                    jerry Thomas
+                  </div>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Settings</a>
+                    <a class="dropdown-item" id="log-out">Log Out</a>
+
+                  </div>
+                </div>
               </div>
             </div>
             <div class="row projectlist_createProject">
-                <div class="col-4">Dashboard <img src="./img/cms_S/format_list_bulleted_24px.svg" alt="project_list"/></div>
-                <div class="col-3"> </div>
-                <div class="col-5 ">
-                    <a class="create_project_button" id="v-pills-create-tab" data-toggle="pill" href="#v-pills-create" role="tab" aria-controls="v-pills-create" aria-selected="false">
-                      <button class="create_project_button_div">Create Project</button>
-                      </a>
-                  
-                  </div>
+
+              <div class="col-4">Dashboard <img src="./img/cms_S/format_list_bulleted_24px.svg" class="dashboard-icons" alt="project_list" />
               </div>
-              <!-- first-row -->
-              <div class="row">
-                  <div class="col-3 board-items">
-                  <ul class="date_options">
-                    <li>01/02/19</li>
-                    <li>...</li>
-                  </ul>
-                    <center>
-                      <h1 class="board-items_letter">E</h1></center>
-                    <center><p class="dashboard-section">E-Commerce Website</p></center>
-                  </div>
-                  <div class="col-3 board-items">
-                      <ul class="date_options">
-                          <li>01/02/19</li>
-                          <li>...</li>
-                        </ul>
-                          <center>
-                            <h1 class="board-items_letter">C</h1></center>
-                          <center><p class="dashboard-section">Corporate Website</p></center>
-            
-                    
-                     </div>
-                  <div class="col-3 board-items">
-                      <ul class="date_options">
-                          <li>01/02/19</li>
-                          <li>...</li>
-                        </ul>
-                          <center>
-                            <h1 class="board-items_letter">IN</h1></center>
-                          <center><p class="dashboard-section">Website Redesign</p></center>
-                  </div>
-                </div>
-         <!-- second row -->
-         <div class="row">
-            <div class="col-3 board-items">
-            <ul class="date_options">
-              <li>01/02/19</li>
-              <li>...</li>
-            </ul>
-              <center>
-                <h1 class="board-items_letter">E</h1></center>
-              <center><p class="dashboard-section">E-Commerce Website</p></center>
+              <div class="col-3"> </div>
+              <div class="col-5 ">
+                <a class="create_project_button" id="v-pills-create-tab" data-toggle="pill" href="#v-pills-create"
+                  role="tab" aria-controls="v-pills-create" aria-selected="false">
+                  <button class="create_project_button_div">Create Project</button>
+                </a>
+
+              </div>
             </div>
-            <div class="col-3 board-items">
+            <!-- first-row -->
+            <div class="row">
+              <div class="col-3 board-items">
                 <ul class="date_options">
-                    <li>01/02/19</li>
-                    <li>...</li>
-                  </ul>
-                    <center>
-                      <h1 class="board-items_letter">C</h1></center>
-                    <center><p class="dashboard-section">Corporate Website</p></center>
-      
-              
-               </div>
-            <div class="col-3 board-items">
-                <ul class="date_options">
-                    <li>01/02/19</li>
-                    <li>...</li>
-                  </ul>
-                    <center>
-                      <h1 class="board-items_letter">IN</h1></center>
-                    <center><p class="dashboard-section">Website Redesign</p></center>
-      
-              
+                  <li>01/02/19</li>
+                  <li>...</li>
+                </ul>
+                <center>
+                  <h1 class="board-items_letter">E</h1>
+                </center>
+                <center>
+                  <p class="dashboard-section">E-Commerce Website</p>
+                </center>
               </div>
+              <div class="col-3 board-items">
+                <ul class="date_options">
+                  <li>01/02/19</li>
+                  <li>...</li>
+                </ul>
+                <center>
+                  <h1 class="board-items_letter">C</h1>
+                </center>
+                <center>
+                  <p class="dashboard-section">Corporate Website</p>
+                </center>
+
+
+              </div>
+              <div class="col-3 board-items">
+                <ul class="date_options">
+                  <li>01/02/19</li>
+                  <li>...</li>
+                </ul>
+                <center>
+                  <h1 class="board-items_letter">IN</h1>
+                </center>
+                <center>
+                  <p class="dashboard-section">Website Redesign</p>
+                </center>
+              </div>
+            </div>
+            <!-- second row -->
+            <div class="row">
+              <div class="col-3 board-items">
+                <ul class="date_options">
+                  <li>01/02/19</li>
+                  <li>...</li>
+                </ul>
+                <center>
+                  <h1 class="board-items_letter">E</h1>
+                </center>
+                <center>
+                  <p class="dashboard-section">E-Commerce Website</p>
+                </center>
+              </div>
+              <div class="col-3 board-items">
+                <ul class="date_options">
+                  <li>01/02/19</li>
+                  <li>...</li>
+                </ul>
+                <center>
+                  <h1 class="board-items_letter">C</h1>
+                </center>
+                <center>
+                  <p class="dashboard-section">Corporate Website</p>
+                </center>
+
+
+              </div>
+              <div class="col-3 board-items">
+                <ul class="date_options">
+                  <li>01/02/19</li>
+                  <li>...</li>
+                </ul>
+                <center>
+                  <h1 class="board-items_letter">IN</h1>
+                </center>
+                <center>
+                  <p class="dashboard-section">Website Redesign</p>
+                </center>
+
+
+              </div>
+            </div>
           </div>
-      </div>
-      <div class="tab-pane fade" id="v-pills-create" role="tabpanel" aria-labelledby="v-pills-create-tab">
-          <div class="row search_customer_name">
+          <div class="tab-pane fade" id="v-pills-create" role="tabpanel" aria-labelledby="v-pills-create-tab">
+            <div class="row search_customer_name">
               <div class="col-4"><input type="text" class="form-control" id="search" placeholder="search"></div>
               <div class="col-4"></div>
               <div class="col-4">
-                  <div class="dropdown">
-                      <div class=" dropdown-toggle"  id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <img src="./img/cms_S/Vector.svg" alt="group"/>
-                        jerry Thomas
-                      </div>
-                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Settings</a>
-                        <a class="dropdown-item" id="log-out">Log Out</a>
-                        
-                      </div>
-                    </div>
+                <div class="dropdown">
+                  <div class=" dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false"> <img src="./img/cms_S/Vector.svg" alt="group" />
+                    jerry Thomas
+                  </div>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Settings</a>
+                    <a class="dropdown-item" id="log-out">Log Out</a>
+
+                  </div>
+                </div>
               </div>
-            </div>  
-        <div class="modal-header">
-              <h5 class="modal-title " id="exampleModalLabel">Project Details</h5>
-              
-            </div>  
-        <div class="modal-body">
-              <form id="signup-data" >
+            </div>
+            <div class="modal-header">
+              <h5 class="modal-title " id="exampleModalLabel">Project Details  <img class="" src="./img/cms_S/format_list_bulleted_24px.svg" alt="project_list" /></h5>
+
+            </div>
+            <div class="modal-body">
+              <form id="signup-data">
+                <h1 class="create-head">
+                    Create a project
+                </h1>
+                <p class="create-text">Enter your details to get us on baord your next project</p>
                 <div class="form-group">
-                  <label >Project Name</label>
+                  <label>Project Name</label>
                   <input type="text" class="form-control" id="p_name" required>
                 </div>
-                <div class="form-group">
+                <!-- <div class="form-group">
                   <label>Company Name</label>
                   <input type="text" class="form-control" id="c_name" required>
                 </div>
                 <div class="form-group">
-                  <label >Phone number</label>
+                  <label>Phone number</label>
                   <input type="number" class="form-control" id="ph_name" required>
                 </div>
                 <div class="form-group">
-                  <label >Company/personal Email address</label>
+                  <label>Company/personal Email address</label>
                   <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
                     placeholder="abcxyz@example.com" required>
-    
-                </div>
+
+                </div> -->
                 <div class="form-group">
-                  <label >Type of Web Project</label>
+                  <label>Project Category</label>
                   <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
                     <option selected>Choose...</option>
                     <option value="E-commerce">E-commerce</option>
@@ -238,135 +279,157 @@
                   </select>
                 </div>
                 <div class="form-group">
-                  <label for="exampleFormControlTextarea1">Brief Of the Project</label>
+                  <label for="exampleFormControlTextarea1">provide cpanel details [Registered Business Name]</label>
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
-                <button type="submit" class="create_project_button">Add Project</button>
+                <button type="submit" class="add-button">Add Project</button>
               </form>
             </div>
-      </div>
-      <div class="tab-pane fade" id="v-pills-projects" role="tabpanel" aria-labelledby="v-pills-projects-tab">
-          <div class="row search_customer_name">
+          </div>
+          <div class="tab-pane fade" id="v-pills-projects" role="tabpanel" aria-labelledby="v-pills-projects-tab">
+            <div class="row search_customer_name">
               <div class="col-4"><input type="text" class="form-control" id="search" placeholder="search"></div>
               <div class="col-4"></div>
               <div class="col-4">
-                  <div class="dropdown">
-                      <div class=" dropdown-toggle"  id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          <img src="./img/cms_S/Vector.svg" alt="group"/>
-                        jerry Thomas
-                      </div>
-                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Settings</a>
-                        <a class="dropdown-item" id="log-out">Log Out</a>
-                        
-                      </div>
-                    </div>
+                <div class="dropdown">
+                  <div class=" dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    <img src="./img/cms_S/Vector.svg" alt="group" />
+                    jerry Thomas
+                  </div>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Settings</a>
+                    <a class="dropdown-item" id="log-out">Log Out</a>
+
+                  </div>
+                </div>
               </div>
             </div>
             <div class="row projectlist_createProject">
-                <div class="col-4"> Project Lists <img src="./img/cms_S/format_list_bulleted_24px.svg" alt="project_list"/></div>
-                <div class="col-4"> </div>
-                <div class="col-4">
-                    <a class=" create_project_button" id="v-pills-create-tab" data-toggle="pill" href="#v-pills-create" role="tab" aria-controls="v-pills-create" aria-selected="false">
-                        <button class="create_project_button_div_2">Create Project</button>  
-                    </a>
-                  </div>
+              <div class="col-4"> Project Lists <img src="./img/cms_S/format_list_bulleted_24px.svg"
+                  alt="project_list" /></div>
+              <div class="col-4"> </div>
+              <div class="col-4">
+                <a class=" " id="v-pills-create-tab" data-toggle="pill" href="#v-pills-create"
+                  role="tab" aria-controls="v-pills-create" aria-selected="false">
+                  <button class="create_project_button_div_2">Create Project</button>
+                </a>
               </div>
-              <!-- first-row -->
-              <div class="row">
-                  <div class="col-3 board-items">
-                  <ul class="date_options">
-                    <li>01/02/19</li>
-                    <li>...</li>
-                  </ul>
-                    <center>
-                      <h1 class="board-items_letter">E</h1></center>
-                    <center><p class="dashboard-section">E-Commerce Website</p></center>
-                  </div>
-                  <div class="col-3 board-items">
-                      <ul class="date_options">
-                          <li>01/02/19</li>
-                          <li>...</li>
-                        </ul>
-                          <center>
-                            <h1 class="board-items_letter">C</h1></center>
-                          <center><p class="dashboard-section">Corporate Website</p></center>
-            
-                    
-                     </div>
-                  <div class="col-3 board-items">
-                      <ul class="date_options">
-                          <li>01/02/19</li>
-                          <li>...</li>
-                        </ul>
-                          <center>
-                            <h1 class="board-items_letter">IN</h1></center>
-                          <center><p class="dashboard-section">Website Redesign</p></center>
-                  </div>
-                </div>
-         <!-- second row -->
-         <div class="row">
-            <div class="col-3 board-items">
-            <ul class="date_options">
-              <li>01/02/19</li>
-              <li>...</li>
-            </ul>
-              <center>
-                <h1 class="board-items_letter">E</h1></center>
-              <center><p class="dashboard-section">E-Commerce Website</p></center>
             </div>
-            <div class="col-3 board-items">
+            <!-- first-row -->
+            <div class="row">
+              <div class="col-3 board-items">
                 <ul class="date_options">
-                    <li>01/02/19</li>
-                    <li>...</li>
-                  </ul>
-                    <center>
-                      <h1 class="board-items_letter">C</h1></center>
-                    <center><p class="dashboard-section">Corporate Website</p></center>
-      
-              
-               </div>
-            <div class="col-3 board-items">
-                <ul class="date_options">
-                    <li>01/02/19</li>
-                    <li>...</li>
-                  </ul>
-                    <center>
-                      <h1 class="board-items_letter">IN</h1></center>
-                    <center><p class="dashboard-section">Website Redesign</p></center>
-      
-              
+                  <li>01/02/19</li>
+                  <li>...</li>
+                </ul>
+                <center>
+                  <h1 class="board-items_letter">E</h1>
+                </center>
+                <center>
+                  <p class="dashboard-section">E-Commerce Website</p>
+                </center>
               </div>
+              <div class="col-3 board-items">
+                <ul class="date_options">
+                  <li>01/02/19</li>
+                  <li>...</li>
+                </ul>
+                <center>
+                  <h1 class="board-items_letter">C</h1>
+                </center>
+                <center>
+                  <p class="dashboard-section">Corporate Website</p>
+                </center>
+
+
+              </div>
+              <div class="col-3 board-items">
+                <ul class="date_options">
+                  <li>01/02/19</li>
+                  <li>...</li>
+                </ul>
+                <center>
+                  <h1 class="board-items_letter">IN</h1>
+                </center>
+                <center>
+                  <p class="dashboard-section">Website Redesign</p>
+                </center>
+              </div>
+            </div>
+            <!-- second row -->
+            <div class="row">
+              <div class="col-3 board-items">
+                <ul class="date_options">
+                  <li>01/02/19</li>
+                  <li>...</li>
+                </ul>
+                <center>
+                  <h1 class="board-items_letter">E</h1>
+                </center>
+                <center>
+                  <p class="dashboard-section">E-Commerce Website</p>
+                </center>
+              </div>
+              <div class="col-3 board-items">
+                <ul class="date_options">
+                  <li>01/02/19</li>
+                  <li>...</li>
+                </ul>
+                <center>
+                  <h1 class="board-items_letter">C</h1>
+                </center>
+                <center>
+                  <p class="dashboard-section">Corporate Website</p>
+                </center>
+
+
+              </div>
+              <div class="col-3 board-items">
+                <ul class="date_options">
+                  <li>01/02/19</li>
+                  <li>...</li>
+                </ul>
+                <center>
+                  <h1 class="board-items_letter">IN</h1>
+                </center>
+                <center>
+                  <p class="dashboard-section">Website Redesign</p>
+                </center>
+
+
+              </div>
+            </div>
           </div>
-      </div>
-      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-          <div class="row search_customer_name">
+          <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+            <div class="row search_customer_name">
               <div class="col-4"><input type="text" class="form-control" id="search" placeholder="search"></div>
               <div class="col-4"></div>
               <div class="col-4">
-                  <div class="dropdown">
-                      <div class=" dropdown-toggle"  id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          
-                          <img src="./img/cms_S/Vector.svg" alt="group"/> jerry Thomas
-                      </div>
-                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Settings</a>
-                        <a class="dropdown-item" id="log-out">Log Out</a>
-                        
-                      </div>
-                    </div>
+                <div class="dropdown">
+                  <div class=" dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+
+                    <img src="./img/cms_S/Vector.svg" alt="group" /> jerry Thomas
+                  </div>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Settings</a>
+                    <a class="dropdown-item" id="log-out">Log Out</a>
+
+                  </div>
+                </div>
               </div>
             </div>
             <form>
-            <div class="form-group">
-                <label for="exampleFormControlTextarea1">Brief Of the Project</label>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Write a Message</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
               </div>
-              <button type="submit" class="create_project_button">Send </button>
+              <button type="submit" class="send-button">Send </button>
             </form>
-             
-      </div>
-      <!-- <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+
+          </div>
+          <!-- <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
           <div class="row search_customer_name">
               <div class="col-4"><input type="text" class="form-control" id="search" placeholder="search"></div>
               <div class="col-4"></div>
@@ -385,71 +448,46 @@
             </div>
             
       </div> -->
-      <div class="tab-pane fade" id="v-pills-support" role="tabpanel" aria-labelledby="v-pills-support-tab">
-          <div class="row search_customer_name">
+          <div class="tab-pane fade" id="v-pills-support" role="tabpanel" aria-labelledby="v-pills-support-tab">
+            <div class="row search_customer_name">
               <div class="col-4"><input type="text" class="form-control" id="search" placeholder="search"></div>
               <div class="col-4"></div>
               <div class="col-4">
-                  <div class="dropdown">
-                      <div class=" dropdown-toggle"  id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        jerry Thomas
-                      </div>
-                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Settings</a>
-                        <a class="dropdown-item"id="log-out">Log Out</a>
-                        
-                      </div>
-                    </div>
-              </div>
-            </div>
-              <!-- first-row -->
-              <div class="row">
-                  <div class="col-3 board-items">
-                  <ul class="date_options">
-                    <li>01/02/19</li>
-                    <li>...</li>
-                  </ul>
-                    <center>
-                      <h1 class="board-items_letter">E</h1></center>
-                    <center><p class="dashboard-section">E-Commerce Website</p></center>
+                <div class="dropdown">
+                  <div class=" dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    jerry Thomas
                   </div>
-                  <div class="col-3 board-items">
-                      <ul class="date_options">
-                          <li>01/02/19</li>
-                          <li>...</li>
-                        </ul>
-                          <center>
-                            <h1 class="board-items_letter">C</h1></center>
-                          <center><p class="dashboard-section">Corporate Website</p></center>
-            
-                    
-                     </div>
-                  <div class="col-3 board-items">
-                      <ul class="date_options">
-                          <li>01/02/19</li>
-                          <li>...</li>
-                        </ul>
-                          <center>
-                            <h1 class="board-items_letter">IN</h1></center>
-                          <center><p class="dashboard-section">Website Redesign</p></center>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Settings</a>
+                    <a class="dropdown-item" id="log-out">Log Out</a>
+
                   </div>
                 </div>
-         <!-- second row -->
-         
+              </div>
+            </div>
+            <address>
+                Address:  <br>
+                Halebranson House, Off Owena <br> 
+                Close Maitama, Abuja, Nigeria <br>
+
+               </address>
+            <!-- second row -->
+
+          </div>
+        </div>
       </div>
+
+      <div class="col-1"></div>
+
     </div>
-  </div>
-
-<div class="col-1"></div>
-
-</div>
 
 
   </div>
 
 
-  
- 
+
+
   <!-- submit project Modal -->
   <div class="modal fade" id="projectModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
@@ -463,7 +501,7 @@
           </button>
         </div>
         <div class="modal-body">
-          <form id="signup-data" >
+          <form id="signup-data">
             <div class="form-group">
               <label for="exampleInputName1">Project Name</label>
               <input type="text" class="form-control" id="p_name" required>
@@ -501,7 +539,7 @@
 
       </div>
     </div>
- 
+
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -512,37 +550,37 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"></script>
-       <!-- The core Firebase JS SDK is always required and must be listed first -->
-  <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-auth.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-firestore.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-firestore.js"></script>
 
 
-  <script>
-    // Your web app's Firebase configuration
-    var firebaseConfig = {
-    apiKey: "AIzaSyC2cCFtgkMUXs8lDj7W9U7Rw10Cj8jdzHA",
-    authDomain: "startsmart-b2a84.firebaseapp.com",
-    databaseURL: "https://startsmart-b2a84.firebaseio.com",
-    projectId: "startsmart-b2a84",
-    // storageBucket: "",
-    // messagingSenderId: "999659756521",
-    appId: "1:999659756521:web:a0a2426664845930"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyC2cCFtgkMUXs8lDj7W9U7Rw10Cj8jdzHA",
+        authDomain: "startsmart-b2a84.firebaseapp.com",
+        databaseURL: "https://startsmart-b2a84.firebaseio.com",
+        projectId: "startsmart-b2a84",
+        // storageBucket: "",
+        // messagingSenderId: "999659756521",
+        appId: "1:999659756521:web:a0a2426664845930"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
 
-    // make auth and firestore refrences
-    const auth = firebase.auth();
-    const db = firebase.firestore();
+      // make auth and firestore refrences
+      const auth = firebase.auth();
+      const db = firebase.firestore();
 
 
-  </script>
-<script src="js/dashboard.js"></script>
-<script src="js/authOut.js"></script>
-<script>
-  getData();
-  </script>
+    </script>
+    <script src="js/dashboard.js"></script>
+    <script src="js/authOut.js"></script>
+    <script>
+      getData();
+    </script>
 </body>
 
 </html>
