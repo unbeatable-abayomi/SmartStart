@@ -38,7 +38,7 @@ a {
 .dashboard-links:hover {
 	background: #800080;
 	width: 13rem;
-	padding: .8rem;
+	padding: .6rem;
 	border-radius: 6px;
 	cursor: pointer;
 	color: white !important;
@@ -54,21 +54,88 @@ a {
 	color: #fff;
 }
 .create_project_button_div_2 {
-	width: 12rem;
+	width: 14rem;
 	background: #800080;
 	border: none;
 	color: #fff;
-	height: 46.5px;
-	margin-left: -5rem;
+	padding: .5rem;
+	/* height: 46.5px; */
+	margin-left: -4.6rem;
+	margin-top: -2rem;
+	margin-bottom: -1rem;
 	border-radius: 6px;
 }
-.create_project_button {
+ .create_project_button {
 	background: #800080;
 	border-radius: 6px;
 	padding: .8rem;
 	color: #fff;
 	/* border: none; */
 	height: 12rem;
+} 
+.send-button{
+	background: #800080 !important;
+	border-radius: 6px;
+	padding: .5rem 3rem;
+	color: #fff;
+	/* margin-left: 10rem; */
+}
+.add-button{
+	background: #800080 !important;
+	border-radius: 6px;
+	padding: .5rem 3rem;
+	color: #fff;
+	margin-left: 23rem !important;
+	margin-top: 10px;
+}
+.create-head{
+	
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+
+color: #333333;
+}
+.create-text{
+	font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #67647E;
+}
+label{
+	font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+.modal-title{
+	font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+
+color: #333333;
+}
+.modal-body{
+	width: 75%;
+	/* margin: auto; */
 }
 .board-items_letter {
 	background: #800080;
@@ -104,4 +171,8 @@ ul li {
 }
 .dashboard-section {
 	margin-bottom: 4rem;
+}
+
+.dropdown-item{
+	color : rgb(26, 24, 24) !important;
 }
