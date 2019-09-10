@@ -43,6 +43,9 @@ a {
 	cursor: pointer;
 	color: white !important;
 }
+.dashboard-icons {
+	margin: .5rem;
+}
 .search_customer_name {
 	margin-top: 1rem;
 	margin-bottom: 3rem;
