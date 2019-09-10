@@ -31,14 +31,15 @@ a {
 	margin-left: 4.2rem;
 }
 .dashboard-links {
+	width: 70%;
+	height: 2.8rem;
+	line-height: 2.8rem;
 	margin: 2rem;
 	margin-left: 5.5rem;
 	color: rgb(173, 169, 169) !important;
 }
 .dashboard-links:hover {
 	background: #800080;
-	width: 13rem;
-	padding: .6rem;
 	border-radius: 6px;
 	cursor: pointer;
 	color: white !important;
@@ -68,22 +69,22 @@ a {
 	margin-bottom: -1rem;
 	border-radius: 6px;
 }
- .create_project_button {
+.create_project_button {
 	background: #800080;
 	border-radius: 6px;
 	padding: .8rem;
 	color: #fff;
 	/* border: none; */
 	height: 12rem;
-} 
-.send-button{
+}
+.send-button {
 	background: #800080 !important;
 	border-radius: 6px;
 	padding: .5rem 3rem;
 	color: #fff;
 	/* margin-left: 10rem; */
 }
-.add-button{
+.add-button {
 	background: #800080 !important;
 	border-radius: 6px;
 	padding: .5rem 3rem;
@@ -91,52 +92,51 @@ a {
 	margin-left: 23rem !important;
 	margin-top: 10px;
 }
-.create-head{
-	
-font-style: normal;
-font-weight: bold;
-font-size: 20px;
-line-height: 24px;
-display: flex;
-align-items: center;
-
-color: #333333;
-}
-.create-text{
+.create-head {
 	font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 22px;
-/* identical to box height */
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	display: flex;
+	align-items: center;
 
-display: flex;
-align-items: center;
-
-color: #67647E;
+	color: #333333;
 }
-label{
+.create-text {
 	font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	/* identical to box height */
 
-display: flex;
-align-items: center;
+	display: flex;
+	align-items: center;
 
-color: #000000;
+	color: #67647e;
 }
-.modal-title{
+label {
 	font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-display: flex;
-align-items: center;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	/* identical to box height */
 
-color: #333333;
+	display: flex;
+	align-items: center;
+
+	color: #000000;
 }
-.modal-body{
+.modal-title {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	display: flex;
+	align-items: center;
+
+	color: #333333;
+}
+.modal-body {
 	width: 75%;
 	/* margin: auto; */
 }
@@ -176,6 +176,6 @@ ul li {
 	margin-bottom: 4rem;
 }
 
-.dropdown-item{
-	color : rgb(26, 24, 24) !important;
+.dropdown-item {
+	color: rgb(26, 24, 24) !important;
 }
