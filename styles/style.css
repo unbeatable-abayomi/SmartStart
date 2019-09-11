@@ -339,6 +339,22 @@ address {
 }
 
 @media (max-width: 425px) {
+	.navigation-items-one {
+		display: flex;
+		justify-content: space-between;
+	}
+	.logo {
+		position: absolute;
+		left: 4rem;
+		top: 3.3rem;
+		font-size: 30px;
+	}
+	.dropdown {
+		position: absolute;
+		left: 3rem;
+		top: -1rem;
+		font-size: 30px;
+	}
 	.startsmart_details_div,
 	.div_what_is_smartstart,
 	.our_statement {
