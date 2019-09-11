@@ -1,4 +1,5 @@
-* {
+*,
+body {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
@@ -6,6 +7,19 @@
 }
 body {
 	overflow-x: hidden;
+}
+
+/* This should work for you: */
+
+body {
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+.main-container {
+	width: 100vw;
+	height: 100vh;
 }
 .logo {
 	position: absolute;
@@ -44,6 +58,8 @@ a:hover {
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
+	max-width: 1500px;
+	width: 100%;
 }
 #startsmart_details {
 	margin-top: 8rem;
@@ -269,10 +285,10 @@ address {
 	}
 }
 @media (max-width: 768px) {
-	/* body {
+	body {
 		overflow-x: hidden;
 		max-width: 770px;
-	} */
+	}
 	.logo {
 		left: 2.2rem;
 	}
