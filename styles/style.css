@@ -269,6 +269,10 @@ address {
 	}
 }
 @media (max-width: 768px) {
+	/* body {
+		overflow-x: hidden;
+		max-width: 770px;
+	} */
 	.logo {
 		left: 2.2rem;
 	}
@@ -335,80 +339,76 @@ address {
 /* media query for sign in / up */
 
 @media (max-width: 768px) {
-	
-	.register_login{
-		margin:0px 20px 0px 50px !important;
+	.register_login {
+		margin: 0px 20px 0px 50px !important;
 	}
-	.signinuptext{
+	.signinuptext {
 		font-size: 14px !important;
 	}
 }
 
 @media (max-width: 425px) {
-	.navbar-brand{
-		width:160px;
-		margin:-20px 0px 0px -70px !important;
+	.navbar-brand {
+		width: 160px;
+		margin: -20px 0px 0px -70px !important;
 	}
-	.signinupbgd{
-		width:250px;
+	.signinupbgd {
+		width: 250px;
 	}
-	.register_login{
-		margin:70px 20px -30px 50px !important;
+	.register_login {
+		margin: 70px 20px -30px 50px !important;
 	}
-	.signinuptext{
+	.signinuptext {
 		font-size: 10px !important;
 	}
-	.btn-outline-dark{
-		width:80px;
+	.btn-outline-dark {
+		width: 80px;
 		font-size: 10px !important;
 	}
 }
 @media (max-width: 375px) {
-	.navbar-brand{
-		width:160px;
-		margin:-20px 0px 0px -70px !important;
+	.navbar-brand {
+		width: 160px;
+		margin: -20px 0px 0px -70px !important;
 	}
-	.register_login{
-		margin:65px 20px -40px 50px !important;
+	.register_login {
+		margin: 65px 20px -40px 50px !important;
 	}
-	.create{
+	.create {
 		font-size: 20px;
 		line-height: 30px;
 	}
-	.detail{
+	.detail {
 		font-size: 13px;
-		
 	}
-	.form-group{
-		margin-top:-15px;
+	.form-group {
+		margin-top: -15px;
 	}
-	
-	.signinupbgd{
-		width:230px;
-	}	
+
+	.signinupbgd {
+		width: 230px;
+	}
 }
 
 @media (max-width: 320px) {
-	.navbar-brand{
-		margin:-30px 0px 0px -70px !important;
+	.navbar-brand {
+		margin: -30px 0px 0px -70px !important;
 	}
-	.create{
+	.create {
 		font-size: 20px;
 		line-height: 30px;
 	}
-	.detail{
+	.detail {
 		font-size: 13px;
-		
 	}
-	label{
+	label {
 		font-size: 12px;
 	}
-	.form-group{
-		margin-top:-15px;
+	.form-group {
+		margin-top: -15px;
 	}
-	
-	.signinupbgd{
-		width:200px;
+
+	.signinupbgd {
+		width: 200px;
 	}
 }
- 
