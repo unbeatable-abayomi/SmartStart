@@ -7,18 +7,11 @@ body {
 }
 body {
 	overflow-x: hidden;
-}
-
-/* This should work for you: */
-
-body {
-	margin: 0;
 	width: 100vw;
 	height: 100vh;
 }
-
 .main-container {
-	width: 100vw;
+	width: 100%;
 	height: 100vh;
 }
 .logo {
@@ -346,6 +339,11 @@ address {
 }
 
 @media (max-width: 425px) {
+	.startsmart_details_div,
+	.div_what_is_smartstart,
+	.our_statement {
+		padding: 4rem;
+	}
 	.nav-item {
 		margin: 0rem;
 		font-size: 20px;
@@ -371,7 +369,6 @@ address {
 
 	.signinupbgd {
 		width: 250px;
-
 	}
 	.register_login {
 		margin: 70px 20px -30px 50px !important;
