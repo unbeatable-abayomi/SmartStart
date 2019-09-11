@@ -13,10 +13,10 @@ body {
 	top: 3.3rem;
 	font-size: 30px;
 }
+.new-navbar {
+	display: none;
+}
 
-/* .nav-contents {
-	height: 15vh;
-} */
 .nav-item {
 	margin: 1rem;
 	/* font-size: 20px; */
@@ -39,9 +39,10 @@ a:hover {
 }
 
 .startsmart_details_div {
-	background-image: url('../img/cms_S/adults-analysis-brainstorming-1661004.svg');
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+		url('../img/cms_S/adults-analysis-brainstorming-1661004.svg');
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	height: 100vh;
 }
 #startsmart_details {
@@ -51,6 +52,13 @@ a:hover {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+}
+.navigation-items-one {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	/* background-color: #800080; */
+	color: #ffffff;
 }
 .navbar-brand {
 	margin-top: -2rem;
@@ -84,7 +92,9 @@ li {
 }
 
 .register_login {
-	margin-right: 8rem;
+	margin-right: 22rem;
+	-webkit-filter: contrast(100%);
+	filter: contrast(100%);
 }
 .details {
 	margin-top: 2rem;
@@ -92,9 +102,8 @@ li {
 .details_one {
 	margin-left: -2rem;
 	color: #ffffff;
-}
-.undraw_team_spirit {
-	margin-left: 6rem;
+	-webkit-filter: contrast(100%);
+	filter: contrast(100%);
 }
 
 .div_what_is_smartstart {
@@ -216,24 +225,23 @@ footer {
 	justify-content: space-between;
 }
 .address_div {
-	margin-top: -4rem;
+	margin-top: 2rem;
 	margin-right: 5rem;
+}
+
+.input_newsletter {
+	width: 20rem;
+	height: 3rem;
+	background: #c4c4c4;
 }
 .join_now {
 	position: absolute;
-	/* left: 1rem; */
 	margin-top: 0rem;
 	height: 3rem;
 	width: 11.2rem;
 	background: #800080;
 	color: #fff;
 }
-.input_newsletter {
-	width: 20rem;
-	height: 3rem;
-	background: #c4c4c4;
-}
-
 .footer-input:hover {
 	text-decoration: none;
 }
@@ -244,6 +252,78 @@ address {
 /* footer styles end */
 
 /* media query  */
+
+@media (max-width: 1024px) {
+	.logo {
+		position: absolute;
+		left: 4rem;
+		top: 3.3rem;
+		font-size: 30px;
+	}
+	#projects-span {
+		-webkit-filter: brightness(200%);
+		filter: brightness(200%);
+	}
+	.register_login {
+		margin-right: 1rem;
+	}
+}
+@media (max-width: 768px) {
+	.logo {
+		left: 2.2rem;
+	}
+	.register_login {
+		margin-right: 5rem;
+	}
+	.nav-link {
+		margin-left: -3.0rem;
+	}
+	#startsmart_details {
+		margin-top: 4.5rem;
+	}
+	.details_one {
+		margin-top: -2rem;
+	}
+	.div_what_is_smartstart {
+		margin-top: 0;
+	}
+	.new-navbar {
+		display: block;
+	}
+	.dropdown-item {
+		color: black !important;
+	}
+
+	.navigation-items {
+		display: none;
+	}
+	.engage_us_text {
+		font-size: 30px;
+	}
+	.div_engage_us_text {
+		font-size: 20px;
+	}
+	.footer-heading {
+		font-size: 30px;
+	}
+	.input_newsletter {
+		width: 15rem;
+		height: 2.8rem;
+		background: #c4c4c4;
+	}
+	.join_now {
+		position: absolute;
+		margin-top: 0rem;
+		height: 2.8rem;
+		width: 8.2rem;
+		background: #800080;
+		color: #fff;
+	}
+	.address_div {
+		margin-right: -0.1rem;
+		margin-bottom: 1rem;
+	}
+}
 
 @media (max-width: 425px) {
 	.nav-item {
