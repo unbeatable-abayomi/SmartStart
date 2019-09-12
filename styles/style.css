@@ -294,8 +294,8 @@ address {
 	.footer-box, .newletter_div{
 		margin-left: 2rem;
 	}
-	address{
-		margin-left: -2rem;
+	.address_div{
+		margin-right: 20rem;
 	}
 }
 
@@ -333,8 +333,8 @@ address {
 		margin-left: 2rem;
 
 	}
-	address{
-		margin-left: -2rem;
+	.address_div{
+		margin-right: 5rem;
 	 }
 }
 @media (max-width: 768px) {
