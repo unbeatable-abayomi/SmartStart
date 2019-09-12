@@ -260,7 +260,7 @@ address {
 
 /* footer styles end */
 
-/* media query  */
+/* media query  dev-abayomi */
 
 @media (max-width: 1024px) {
 	.logo {
@@ -342,11 +342,12 @@ address {
 	.navigation-items-one {
 		display: flex;
 		justify-content: space-between;
+		margin-top: -2.3rem;
 	}
 	.logo {
 		position: absolute;
 		left: 4rem;
-		top: 3.3rem;
+		top: 1.3rem;
 		font-size: 30px;
 	}
 	.dropdown {
@@ -364,7 +365,76 @@ address {
 		margin: 0rem;
 		font-size: 20px;
 	}
+	footer {
+		background-color: rgb(12, 11, 11);
+		height: 36rem;
+		margin-top: -4.5rem;
+		padding: 1.2rem;
+	}
+	.newletter_div {
+		/* padding: 2rem; */
+		margin-right: 3rem;
+	}
+	.input_newsletter {
+		width: 14rem;
+		height: 3rem;
+		background: #c4c4c4;
+	}
+	.join_now {
+		position: absolute;
+		margin-top: 0rem;
+		height: 3rem;
+		width: 5.2rem;
+		background: #800080;
+		color: #fff;
+	}
 }
+
+@media (max-width: 375px) {
+	.navigation-items-one {
+		display: flex;
+		justify-content: space-between;
+		margin-top: -1.1rem;
+		margin-right: 1rem;
+	}
+	.startsmart_details_div {
+		padding: 3rem;
+	}
+	.logo {
+		position: absolute;
+		left: 3rem;
+		top: 1.3rem;
+		font-size: 30px;
+	}
+	.dropdown {
+		position: absolute;
+		left: 3rem;
+		top: -1rem;
+		font-size: 30px;
+	}
+}
+@media (max-width: 320px) {
+	.navigation-items-one {
+		display: flex;
+		justify-content: space-between;
+		margin-top: -1.1rem;
+		margin-right: -0.3rem;
+	}
+	.logo {
+		position: absolute;
+		left: 1rem;
+		top: 1.3rem;
+		font-size: 30px;
+	}
+	.dropdown {
+		position: absolute;
+		left: 3rem;
+		top: -1rem;
+		font-size: 30px;
+	}
+}
+
+/* media query  dev-abayomi */
 
 /* media query for sign in / up */
 
