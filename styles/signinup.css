@@ -1,0 +1,317 @@
+*,
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Montserrat;
+}
+body {
+	overflow-x: hidden;
+	width: 100vw;
+	height: 100vh;
+}
+.main-container {
+	width: 100%;
+	height: 100vh;
+}
+.logo {
+	position: absolute;
+	left: 6rem;
+	top: 3.3rem;
+	font-size: 30px;
+}
+.new-navbar {
+	display: none;
+}
+
+.nav-item {
+	margin: 1rem;
+	/* font-size: 20px; */
+}
+.nav-link {
+	color: rgb(12, 11, 11);
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 20px;
+}
+a {
+	color: #ffffff !important;
+	border: none !important;
+}
+a:hover {
+	cursor: pointer;
+	color: #ffffff !important;
+}
+
+.startsmart_details_div {
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+		url('../img/cms_S/adults-analysis-brainstorming-1661004.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	max-width: 1500px;
+	width: 100%;
+}
+#startsmart_details {
+	margin-top: 8rem;
+}
+.navigation-items {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.navigation-items-one {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	/* background-color: #800080; */
+	color: #ffffff;
+}
+.navbar-brand {
+	margin-top: -2rem;
+}
+.register_login {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+li {
+	list-style: none;
+}
+
+.div_engage_us {
+	margin-top: 1.5rem;
+}
+#get_started_link {
+	width: 16rem;
+}
+.engage_us_text {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+}
+.our_project_tools {
+	margin-top: 1rem;
+}
+.logout {
+	border: solid 1px #fff;
+}
+
+.register_login {
+	margin-right: 22rem;
+	-webkit-filter: contrast(100%);
+	filter: contrast(100%);
+}
+.details {
+	margin-top: 2rem;
+}
+.details_one {
+	margin-left: -2rem;
+	color: #ffffff;
+	-webkit-filter: contrast(100%);
+	filter: contrast(100%);
+}
+
+.div_what_is_smartstart {
+	margin-top: 6rem;
+}
+.what_do_we_do {
+	margin: 2rem;
+}
+.our_statement {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 6rem;
+}
+.our_statement_one,
+.our_statement_two,
+.our_statement_three {
+	border-left: 2px solid #d32d91;
+	height: 13rem;
+	position: absolute;
+}
+.our_statement_one p,
+.our_statement_two p,
+.our_statement_three p {
+	padding-left: 1.5rem;
+}
+
+/* #incoming_data , */
+.one {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 30rem;
+}
+
+/* dev-abayomi styles end here */
+
+.modal-title {
+	margin-left: 190px;
+	color: rgb(247, 230, 246);
+	font-size: 30px;
+}
+.modalbtn {
+	margin-top: 40px;
+	margin-bottom: 10px;
+	background: #800080 !important;
+	border: none !important;
+	font-size: 20px !important;
+}
+
+.signinupbgd {
+	width: 50%;
+	margin: auto;
+	color: black;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+.error {
+	color: rgb(247, 4, 4);
+}
+
+.btn-outline-dark {
+	color: #343a40;
+	background-color: transparent;
+	background-image: none;
+	border-color: #800080 !important;
+}
+.btn-outline-dark:hover {
+	background-color: #800080 !important;
+	background-image: none;
+	border-color: #800080 !important;
+}
+.signinuptext {
+	margin-top: 10px;
+	padding-right: 10px;
+	color: #141414 !important;
+	font-weight: normal !important;
+	font-size: 16px;
+	line-height: 20px;
+}
+.topword {
+	margin-top: 60px;
+}
+.create {
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 39px;
+}
+
+.detail {
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+form {
+	width: 100%;
+	margin-top: 50px;
+	/* margin-left: 20px; */
+}
+
+@media (max-width: 1440px) {
+	.register_login {
+		margin: 0px 20px 0px 50px !important;
+	}
+	.signinuptext {
+		font-size: 14px !important;
+	}
+}
+@media (max-width: 1024px) {
+	.register_login {
+		margin: 0px 20px 0px 50px !important;
+	}
+	.signinuptext {
+		font-size: 14px !important;
+	}
+}
+@media (max-width: 768px) {
+	.register_login {
+		margin: 0px 20px 0px 50px !important;
+	}
+	.signinuptext {
+		font-size: 14px !important;
+	}
+}
+
+@media (max-width: 425px) {
+	.navbar-brand {
+		width: 160px;
+		margin: -20px 0px 0px -70px !important;
+	}
+
+	.signinupbgd {
+		width: 250px;
+	}
+	.register_login {
+		margin: 70px 20px -30px 50px !important;
+	}
+	.signinuptext {
+		font-size: 10px !important;
+	}
+	.btn-outline-dark {
+		width: 80px;
+		font-size: 10px !important;
+	}
+}
+@media (max-width: 375px) {
+	.navbar-brand {
+		width: 160px;
+		margin: -20px 0px 0px -70px !important;
+	}
+	.register_login {
+		margin: 65px 20px -40px 50px !important;
+	}
+	.create {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.detail {
+		font-size: 13px;
+	}
+	.form-group {
+		margin-top: -15px;
+	}
+
+	.signinupbgd {
+		width: 230px;
+	}
+}
+
+@media (max-width: 320px) {
+	.navbar-brand {
+		margin: -30px 0px 0px -70px !important;
+    }
+   .btn-outline-dark{
+       margin-top: -50px;
+       margin-left: 100px;
+   }
+   .signinuptext{
+       margin-right: 30px;
+   }
+	.create {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.detail {
+		font-size: 13px;
+	}
+	label {
+		font-size: 12px;
+	}
+	.form-group {
+		margin-top: -15px;
+	}
+
+	.signinupbgd {
+		width: 200px;
+    }
+    
+}
