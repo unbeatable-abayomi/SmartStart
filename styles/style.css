@@ -127,18 +127,6 @@ li {
 	flex-wrap: wrap;
 	margin-top: 6rem;
 }
-.our_statement_one,
-.our_statement_two,
-.our_statement_three {
-	border-left: 2px solid #d32d91;
-	height: 13rem;
-	position: absolute;
-}
-.our_statement_one p,
-.our_statement_two p,
-.our_statement_three p {
-	padding-left: 1.5rem;
-}
 
 /* #incoming_data , */
 .one {
@@ -227,11 +215,14 @@ footer {
 	padding-top: 1.5rem;
 	color: #fff;
 	margin-bottom: 0;
-	margin-left: -1rem;
+	margin-left: 10.1rem;
 }
 .newsletter_address_div_container {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+}
+.newletter_div {
+	margin-left: -4.5rem;
 }
 .address_div {
 	margin-top: 2rem;
@@ -270,14 +261,14 @@ address {
 	}
 	.engage_us_text {
 		font-size: 30px;
-		margin-left:3rem;
+		margin-left: 3rem;
 	}
 	.div_engage_us_text {
 		font-size: 20px;
-		margin-left:3rem;
+		margin-left: 3rem;
 	}
-	.modalbtn{
-		margin-left:4rem;
+	.modalbtn {
+		margin-left: 4rem;
 	}
 	#projects-span {
 		-webkit-filter: brightness(200%);
@@ -286,15 +277,18 @@ address {
 	.register_login {
 		margin-right: 3rem !important;
 	}
-	.div_what_is_smartstart,.our_statement, .newsletter_address_div_container, .details{
-		width:1440px;
+	.div_what_is_smartstart,
+	.our_statement,
+	.newsletter_address_div_container,
+	.details {
+		width: 1440px;
 	}
-	
-	
-	.footer-box, .newletter_div{
+
+	.footer-box,
+	.newletter_div {
 		margin-left: 2rem;
 	}
-	.address_div{
+	.address_div {
 		margin-right: 20rem;
 	}
 }
@@ -308,14 +302,14 @@ address {
 	}
 	.engage_us_text {
 		font-size: 30px;
-		margin-left:3rem;
+		margin-left: 3rem;
 	}
 	.div_engage_us_text {
 		font-size: 20px;
-		margin-left:3rem;
+		margin-left: 3rem;
 	}
-	.modalbtn{
-		margin-left:4rem;
+	.modalbtn {
+		margin-left: 4rem;
 	}
 	#projects-span {
 		-webkit-filter: brightness(200%);
@@ -325,27 +319,33 @@ address {
 		margin-right: 5rem !important;
 		margin-top: -.8rem;
 	}
-	.div_what_is_smartstart, .our_statement, .newsletter_address_div_container, .details{
-		width:1024px;
+	.div_what_is_smartstart,
+	.our_statement,
+	.newsletter_address_div_container,
+	.details {
+		width: 1024px;
 	}
-	
-	.footer-box, .newletter_div{
-		margin-left: 2rem;
 
+	.footer-box,
+	.newletter_div {
+		margin-left: 2rem;
 	}
-	.address_div{
+	.address_div {
 		margin-right: 5rem;
-	 }
+	}
 }
 @media (max-width: 768px) {
-	.div_what_is_smartstart, .our_statement, .newsletter_address_div_container, .details{
-		width:768px;
+	.div_what_is_smartstart,
+	.our_statement,
+	.newsletter_address_div_container,
+	.details {
+		width: 768px;
 	}
 	.logo {
 		left: 1.5rem;
 		top: .8rem;
 	}
-	
+
 	.details_one {
 		margin-top: -2rem;
 	}
@@ -355,7 +355,6 @@ address {
 	}
 	.new-navbar {
 		display: block;
-		
 	}
 	.dropdown-item {
 		color: black !important;
@@ -366,14 +365,14 @@ address {
 	}
 	.engage_us_text {
 		font-size: 30px;
-		margin-left:3rem;
+		margin-left: 3rem;
 	}
 	.div_engage_us_text {
 		font-size: 20px;
-		margin-left:3rem;
+		margin-left: 3rem;
 	}
-	.modalbtn{
-		margin-left:4rem;
+	.modalbtn {
+		margin-left: 4rem;
 	}
 	.footer-heading {
 		font-size: 20px;
@@ -396,32 +395,41 @@ address {
 		margin-right: 5rem;
 		margin-bottom: 1rem;
 		font-size: 15px;
-	} 
+	}
+	.newsletter_address_div_container {
+		display: flex;
+		justify-content: space-between;
+	}
 }
 
 @media (max-width: 425px) {
-	
-	.div_what_is_smartstart, .our_statement, .newsletter_address_div_container, .details{
-		width:425px;
+	.div_what_is_smartstart,
+	.our_statement,
+	.newsletter_address_div_container,
+	.details {
+		width: 425px;
 	}
 	.logo {
 		width: 150px;
 		left: 2rem;
 		top: .5rem;
 	}
-	
+
 	.details_one {
 		margin-top: -2rem;
 	}
 	.nav-link {
 		margin-top: -1rem;
+		margin-left: 15rem;
 	}
-	h2, p{
+	h2,
+	p {
 		text-align: center;
+		padding-left: 1rem;
 	}
+
 	.new-navbar {
 		display: block;
-		
 	}
 	.dropdown-item {
 		color: black !important;
@@ -432,14 +440,15 @@ address {
 	}
 	.engage_us_text {
 		font-size: 35px;
-		margin-left:4rem;
+		margin-left: 4rem;
 	}
+
 	.div_engage_us_text {
 		font-size: 20px;
-		margin-left:4rem;
+		margin-left: 4rem;
 	}
-	.modalbtn{
-		margin-left:7rem;
+	.modalbtn {
+		margin-left: 7rem;
 	}
 	.footer-heading {
 		font-size: 30px;
@@ -450,6 +459,10 @@ address {
 		margin-left: .5rem;
 		background: #c4c4c4;
 	}
+	.footer-paragraph {
+		margin-left: 1.5rem;
+		padding: 0. 2rem;
+	}
 	.join_now {
 		position: absolute;
 		margin-top: 0rem;
@@ -458,36 +471,45 @@ address {
 		background: #800080;
 		color: #fff;
 	}
+
+	.footer-box {
+		margin-left: -1rem;
+	}
 	.address_div {
 		margin-right: .2rem;
 		margin-top: 2rem;
 		font-size: 10px;
-	} 
+	}
 }
 
 @media (max-width: 375px) {
-	.div_what_is_smartstart, .our_statement, .newsletter_address_div_container, .details{
-		width:375px;
+	.div_what_is_smartstart,
+	.our_statement,
+	.newsletter_address_div_container,
+	.details {
+		width: 375px;
 	}
 	.logo {
 		width: 150px;
 		left: 2rem;
 		top: .5rem;
 	}
-	
+
 	.details_one {
-		margin-top: -2rem;
+		margin-top: -7rem;
+		margin-left: -3rem;
 	}
+
 	.nav-link {
 		margin-top: -1rem;
-		margin-left: 1rem;
+		margin-left: 14rem;
 	}
-	h2, p{
+	h2,
+	p {
 		text-align: center;
 	}
 	.new-navbar {
 		display: block;
-		
 	}
 	.dropdown-item {
 		color: black !important;
@@ -498,14 +520,14 @@ address {
 	}
 	.engage_us_text {
 		font-size: 30px;
-		margin-left:4rem;
+		margin-left: 4rem;
 	}
 	.div_engage_us_text {
 		font-size: 20px;
-		margin-left:4rem;
+		margin-left: 4rem;
 	}
-	.modalbtn{
-		margin-left:5rem;
+	.modalbtn {
+		margin-left: 5rem;
 	}
 	.footer-heading {
 		font-size: 25px;
@@ -528,32 +550,34 @@ address {
 		margin-right: -.3rem;
 		margin-top: 2rem;
 		font-size: 10px;
-	} 
-	
+	}
 }
 @media (max-width: 320px) {
-	.div_what_is_smartstart, .our_statement, .newsletter_address_div_container, .details{
-		width:320px;
+	.div_what_is_smartstart,
+	.our_statement,
+	.newsletter_address_div_container,
+	.details {
+		width: 320px;
 	}
 	.logo {
 		width: 150px;
 		left: 2rem;
 		top: .6rem;
 	}
-	
+
 	.details_one {
-		margin-top: -2rem;
+		margin-top: -4rem;
 	}
 	.nav-link {
 		margin-top: -1rem;
-		margin-left: 7rem;
+		margin-left: 13rem;
 	}
-	h2, p{
+	h2,
+	p {
 		text-align: center;
 	}
 	.new-navbar {
 		display: block;
-		
 	}
 	.dropdown-item {
 		color: black !important;
@@ -564,15 +588,14 @@ address {
 	}
 	.engage_us_text {
 		font-size: 25px;
-		margin-left:4rem;
+		margin-left: 4rem;
 	}
 	.div_engage_us_text {
 		font-size: 15px;
-		margin-left:4rem;
+		margin-left: 4rem;
 	}
-	.modalbtn{
-		
-		margin-left:3rem;
+	.modalbtn {
+		margin-left: 3rem;
 	}
 	.footer-heading {
 		font-size: 25px;
@@ -598,11 +621,9 @@ address {
 		margin-right: -.3rem;
 		margin-top: 2rem;
 		font-size: 10px;
-	} 
-	
+	}
 }
 
 /* media query  dev-abayomi */
 
 /* media query for sign in / up */
-
