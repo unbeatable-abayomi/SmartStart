@@ -403,6 +403,9 @@ address {
 }
 
 @media (max-width: 425px) {
+	/* body {
+		overflow-x: hidden;
+	} */
 	.div_what_is_smartstart,
 	.our_statement,
 	.newsletter_address_div_container,

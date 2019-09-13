@@ -18,65 +18,64 @@
   <div class="main-container">
 
 
+    <!-- new navbar starts -->
+    <!--Navbar-->
 
-    <!-- new navbar  start -->
-    <!-- <nav class="navigation-items">
-      <div class="logo_div">
-         <a href="index.html" > 
-            <img src="./img/icon-01.svg" alt="logo" class="logo navbar-brand"/>
+  <!--Navbar-->
+  <div class="navbar-dark-above">
+  <nav class="navbar navbar-dark red lighten-1 mb-4">
   
-
-          </a>
-        </div>
-    <ul class="nav  nav-contents">
-        
-
-         <li class="nav-item">
-              <a class="nav-link">Home</a>
-          </li>
-        
-        <li class="nav-item">
-          <a class="nav-link">Our Clients</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link">Works</a>
-        </li>
-       
-      </ul>
- <div class="register_login">
-  <li class="nav-item">
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#projectModal">
-      Add Project Details
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="#">
+        <img src="./img/startsmart.png" alt="logo" class="logo navbar-brand" />
+    </a>
+  
+    <!-- Collapse button -->
+    <button class="navbar-toggler second-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent23"
+      aria-controls="navbarSupportedContent23" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon2"><span></span><span></span><span></span><span></span></div>
     </button>
-  </li>
-      <li class="nav-item">
-        <button type="button" class="btn btn-primary" id="log-out">
-          logout
-        </button>
-      </li>
-
- </div>
- <div class="">
-  <div class="incoming_data"> 
+  
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent23">
+  
+      <!-- Links -->
+      <div class="col-md-3 dashboard-items_2">
+        
+         
+          <div class="nav flex-column nav-pills sidebar_contents" id="v-pills-tab" role="tablist"
+            aria-orientation="vertical">
+            <a class=" dashboard-links active" id="v-pills-dashboard-tab" data-toggle="pill" href="#v-pills-dashboard"
+              role="tab" aria-controls="v-pills-dashboard" aria-selected="true">
+              <img src="./img/cms_S/equalizer_24px.png" alt='equalizar' class="dashboard-icons" /> Dashboard</a>
+            <a class=" dashboard-links" id="v-pills-projects-tab" data-toggle="pill" href="#v-pills-projects" role="tab"
+              aria-controls="v-pills-projects" aria-selected="false"> <img src="img/cms_S/Group.svg" class="dashboard-icons" alt="phone" />
+              Projects</a>
+            <a class="dashboard-links" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
+              aria-controls="v-pills-messages" aria-selected="false"> <img src="img/cms_S/Group.svg"
+                alt="phone" class="dashboard-icons" />Messages</a>
+            <a class=" dashboard-links" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+              aria-controls="v-pills-settings" aria-selected="false"> <img src="img/cms_S/jam-settings-alt.png"
+                alt="phone" class="dashboard-icons" />Settings</a>
+            <a class=" dashboard-links" id="v-pills-support-tab" data-toggle="pill" href="#v-pills-support" role="tab"
+              aria-controls="v-pills-support" aria-selected="false">
+              <img src="img/cms_S/phone_24px.svg" class="dashboard-icons" alt="phone" />Contact Support</a>
+          </div>
+      <!-- Links -->
+  
+    </div>
+    <!-- Collapsible content -->
+  
+  </nav>
+</div>
  
-  </div>
-
- </div>
-
- 
-
-</nav>  -->
-
 
     <!-- new navbar  end -->
 
-    <div class="row">
-
-
-    </div>
     <div class="row dashboard">
 
-      <div class="col-3 dashboard-items">
+      <div class="col-md-3 dashboard-items">
+        
         <div class="col-12 logo_dashboard"><img src="./img/startsmart.png" alt="logo" class="logo navbar-brand" /></div>
         <div class="nav flex-column nav-pills sidebar_contents" id="v-pills-tab" role="tablist"
           aria-orientation="vertical">
@@ -99,8 +98,8 @@
       </div>
 
 
-      <div class="col-1"></div>
-      <div class="col-8">
+      <div class="col-md-1 second_row"></div>
+      <div class="col-md-8 container_of_dashboard">
         <div class="tab-content" id="v-pills-tabContent">
 
 
@@ -108,9 +107,9 @@
             aria-labelledby="v-pills-dashboard-tab">
 
             <div class="row search_customer_name">
-              <div class="col-4"><input type="text" class="form-control" id="search" placeholder="search"></div>
-              <div class="col-4"></div>
-              <div class="col-4">
+              <div class="col-md-4"><input type="text" class="form-control" id="search" placeholder="search"></div>
+              <div class="col-md-4"></div>
+              <div class="col-md-4">
                 <div class="dropdown">
                   <div class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
                     aria-expanded="false">
@@ -130,7 +129,7 @@
               <div class="col-4">Dashboard <img src="./img/cms_S/format_list_bulleted_24px.svg" class="dashboard-icons" alt="project_list" />
               </div>
               <div class="col-3"> </div>
-              <div class="col-5 ">
+              <div class="col-5 create_project_button_ ">
                 <a class="create_project_button" id="v-pills-create-tab" data-toggle="pill" href="#v-pills-create"
                   role="tab" aria-controls="v-pills-create" aria-selected="false">
                   <button class="create_project_button_div">Create Project</button>
@@ -139,8 +138,8 @@
               </div>
             </div>
             <!-- first-row -->
-            <div class="row">
-              <div class="col-3 board-items">
+            <div class="row all_boards_container">
+              <div class="col-md-3 board-items">
                 <ul class="date_options">
                   <li>01/02/19</li>
                   <li>...</li>
@@ -152,7 +151,7 @@
                   <p class="dashboard-section">E-Commerce Website</p>
                 </center>
               </div>
-              <div class="col-3 board-items">
+              <div class="col-md-3 board-items">
                 <ul class="date_options">
                   <li>01/02/19</li>
                   <li>...</li>
@@ -166,7 +165,7 @@
 
 
               </div>
-              <div class="col-3 board-items">
+              <div class="col-md-3 board-items">
                 <ul class="date_options">
                   <li>01/02/19</li>
                   <li>...</li>
@@ -181,7 +180,7 @@
             </div>
             <!-- second row -->
             <div class="row">
-              <div class="col-3 board-items">
+              <div class="col-md-3 board-items">
                 <ul class="date_options">
                   <li>01/02/19</li>
                   <li>...</li>
@@ -193,7 +192,7 @@
                   <p class="dashboard-section">E-Commerce Website</p>
                 </center>
               </div>
-              <div class="col-3 board-items">
+              <div class="col-md-3 board-items">
                 <ul class="date_options">
                   <li>01/02/19</li>
                   <li>...</li>
@@ -207,7 +206,7 @@
 
 
               </div>
-              <div class="col-3 board-items">
+              <div class="col-md-3 board-items">
                 <ul class="date_options">
                   <li>01/02/19</li>
                   <li>...</li>
@@ -318,7 +317,7 @@
             </div>
             <!-- first-row -->
             <div class="row">
-              <div class="col-3 board-items">
+              <div class="col-md-3 board-items">
                 <ul class="date_options">
                   <li>01/02/19</li>
                   <li>...</li>
@@ -330,7 +329,7 @@
                   <p class="dashboard-section">E-Commerce Website</p>
                 </center>
               </div>
-              <div class="col-3 board-items">
+              <div class="col-md-3 board-items">
                 <ul class="date_options">
                   <li>01/02/19</li>
                   <li>...</li>
@@ -344,7 +343,7 @@
 
 
               </div>
-              <div class="col-3 board-items">
+              <div class="col-md-3 board-items">
                 <ul class="date_options">
                   <li>01/02/19</li>
                   <li>...</li>
@@ -359,7 +358,7 @@
             </div>
             <!-- second row -->
             <div class="row">
-              <div class="col-3 board-items">
+              <div class="col-md-3 board-items">
                 <ul class="date_options">
                   <li>01/02/19</li>
                   <li>...</li>
@@ -371,7 +370,7 @@
                   <p class="dashboard-section">E-Commerce Website</p>
                 </center>
               </div>
-              <div class="col-3 board-items">
+              <div class="col-md-3 board-items">
                 <ul class="date_options">
                   <li>01/02/19</li>
                   <li>...</li>
@@ -385,7 +384,7 @@
 
 
               </div>
-              <div class="col-3 board-items">
+              <div class="col-md-3 board-items">
                 <ul class="date_options">
                   <li>01/02/19</li>
                   <li>...</li>
@@ -478,7 +477,7 @@
         </div>
       </div>
 
-      <div class="col-1"></div>
+      <!-- <div class="col-md-1"></div> -->
 
     </div>
 
