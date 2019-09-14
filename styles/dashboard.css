@@ -289,6 +289,29 @@ nav {
 		margin-left: 4rem;
 		margin-right: 4rem;
 	}
+	.create_project_button_one {
+		margin-left: -2.5rem;
+	}
+	.project_list_icon {
+		margin-left: .5rem;
+	}
+}
+@media (max-width: 375px) {
+	.create_project_button_one {
+		margin-left: -3.5rem;
+	}
+	.project_list_icon {
+		margin-left: .5rem;
+	}
+}
+
+@media (max-width: 320px) {
+	.create_project_button_one {
+		margin-left: -4.5rem;
+	}
+	.project_list_icon {
+		margin-left: .5rem;
+	}
 }
 /* Icon 1 */
 
