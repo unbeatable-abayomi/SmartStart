@@ -61,21 +61,21 @@
           <form id="signup-data" >
             <div class="form-group">
               <label for="exampleInputName1">First Name</label>
-              <input type="text" class="form-control" id="first_name" required>
+              <input type="text" class="form-control" name="first" id="first_name" required>
             </div>
             <div class="form-group">
               <label for="exampleInputName1">Last Name</label>
-              <input type="text" class="form-control" id="last_name" required>
+              <input type="text" class="form-control" name="last"  id="last_name" required>
             </div>
             <div class="form-group">
               <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+              <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp"
                 placeholder="abcxyz@example.com" required>
 
             </div>
             <div class="form-group">
               <label for="exampleInputPassword1">Password</label>
-              <input type="password" class="form-control" id="password" placeholder="*********" required>
+              <input type="password" class="form-control" name="password"  id="password" placeholder="*********" required>
               <small id="emailHelp" class="form-text text-muted">We'll never share your password with anyone
                 else.</small>
             </div>
@@ -89,6 +89,7 @@
       <!-- </div>
     </div>
   -->
+  <script type="text/javascript" src="//code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -115,7 +116,7 @@
     databaseURL: "https://startsmart-b2a84.firebaseio.com",
     projectId: "startsmart-b2a84",
     // storageBucket: "",
-    // messagingSenderId: "999659756521",
+    messagingSenderId: "999659756521",
     appId: "1:999659756521:web:a0a2426664845930"
   };
   // Initialize Firebase
@@ -128,6 +129,7 @@
 
   </script>
 <script src="js/authup.js"></script>
+<script src="js/dashboard.js"></script>
  
 </body>
 
